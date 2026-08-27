@@ -8,7 +8,62 @@
 > Stats auto-updated by [aidevops](https://aidevops.sh).
 
 <!-- STATS-START -->
-<!-- Stats will be populated on first update -->
+## Work with AI
+
+| Metric | Yesterday | Prior 7 Days | Prior 28 Days | Prior 365 Days |
+| --- | ---: | ---: | ---: | ---: |
+| Screen time (Mac) | 2h | 7.6h | 7.6h | ~365h* |
+| Interactive human attention | 1.8h | 7.8h | 28.4h | 85.6h |
+| Interactive AI generation | 3.8h | 8.7h | 37.1h | 104.4h |
+| Worker-classified human attention | 0.0h | 0.0h | 1.7h | 1.7h |
+| Worker/headless AI generation | 1.5h | 2.4h | 11.4h | 16.6h |
+| Additive observed work | 7.1h | 18.9h | 77.7h | 207.5h |
+| Interactive sessions | 4 | 21 | 45 | 166 |
+| Worker sessions | 26 | 36 | 66 | 138 |
+
+_Screen time from macos-pmset-display-assertions; collection status: ok. *365-day estimate uses observed calendar coverage._
+
+_Periods are completed local calendar days ending at midnight; today is excluded._
+
+_Human attention is unioned wall-clock time, so overlapping sessions are not double-counted. AI generation is additive machine work across sessions; it is not wall-clock concurrency._
+
+_AI session 365-day totals cover 141 days of local assistant session history (not extrapolated)._
+
+## AI Model Usage (last 30 days)
+
+| Model | Requests | Input | Output | Cache read | API Cost | Cache savings | Model savings |
+| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
+| gpt-5.6-sol | 7,611 | 41.4M | 1.8M | 1,027.4M | $807.05 | $2,774.05 | $1,839.32 |
+| gpt-5.6-terra | 638 | 4.6M | 109K | 58.4M | $23.86 | $157.81 | $131.94 |
+| gpt-5.6-luna | 761 | 10.7M | 281K | 78.6M | $5.07 | $212.30 | $240.64 |
+| gemma4-agent-mlx:latest | 1 | 41K | 9 | 0 | $0.12 | $0.00 | $0.50 |
+| **Total** | **9,011** | **56.8M** | **2.2M** | **1,164.5M** | **$836.10** | **$3,144.15** | **$2,212.41** |
+
+_1,223.5M total tokens processed. 95.2% cache hit rate._
+
+_$5,356.56 total saved ($3,144.15 caching + $2,212.41 model routing vs all-Opus)._
+
+_Model savings are modest because ~95.2% of tokens are cache reads, where price differences between models are small._
+
+## AI Model Usage (all time)
+
+| Model | Requests | Input | Output | Cache read | API Cost | Cache savings | Model savings |
+| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
+| gpt-5.6-sol | 9,787 | 56.8M | 2.4M | 1,271.6M | $1,036.01 | $3,433.39 | $2,352.99 |
+| gpt-5.5 | 7,076 | 45.3M | 2.0M | 717.6M | $336.93 | $1,937.75 | $1,527.50 |
+| gpt-5.6-terra | 639 | 4.6M | 109K | 58.4M | $23.93 | $157.81 | $132.39 |
+| gemma4:26b-mlx | 82 | 4.1M | 26K | 0 | $12.87 | $0.00 | $51.49 |
+| gpt-5.6-luna | 761 | 10.7M | 281K | 78.6M | $5.07 | $212.30 | $240.64 |
+| gemma4-agent | 17 | 314K | 4K | 0 | $1.01 | $0.00 | $4.04 |
+| gemma4-agent-mlx:latest | 6 | 170K | 3K | 0 | $0.57 | $0.00 | $2.27 |
+| big-pickle | 2 | 64K | 126 | 0 | $0.20 | $0.00 | $0.98 |
+| **Total** | **18,370** | **122.3M** | **4.8M** | **2,126.3M** | **$1,416.59** | **$5,741.25** | **$4,312.31** |
+
+_2,253.5M total tokens processed. 94.4% cache hit rate._
+
+_$10,053.56 total saved ($5,741.25 caching + $4,312.31 model routing vs all-Opus)._
+
+_Model savings are modest because ~94.4% of tokens are cache reads, where price differences between models are small._
 <!-- STATS-END -->
 
 <!-- CONTRIBUTIONS-START -->
@@ -23,6 +78,7 @@
 ---
 
 <!-- UPDATED-START -->
+_Stats auto-updated 2026-08-27 15:48 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
 
 <div align="center">
