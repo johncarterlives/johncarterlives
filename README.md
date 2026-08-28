@@ -12,14 +12,14 @@
 
 | Metric | Yesterday | Prior 7 Days | Prior 28 Days | Prior 365 Days |
 | --- | ---: | ---: | ---: | ---: |
-| Screen time (Mac) | 2h | 7.4h | 7.4h | ~391h* |
-| Interactive human attention | 1.8h | 7.8h | 28.4h | 85.6h |
-| Interactive AI generation | 3.8h | 8.7h | 37.1h | 104.4h |
-| Worker-classified human attention | 0.0h | 0.0h | 1.7h | 1.7h |
-| Worker/headless AI generation | 1.5h | 2.4h | 11.4h | 16.6h |
-| Additive observed work | 7.1h | 18.9h | 77.7h | 207.5h |
-| Interactive sessions | 12 | 29 | 53 | 174 |
-| Worker sessions | 87 | 97 | 127 | 199 |
+| Screen time (Mac) | 5.9h | 13.3h | 13.3h | ~391h* |
+| Interactive human attention | 5.0h | 12.2h | 32.7h | 90.6h |
+| Interactive AI generation | 6.1h | 14.2h | 35.1h | 110.4h |
+| Worker-classified human attention | 0.2h | 0.2h | 1.9h | 1.9h |
+| Worker/headless AI generation | 3.8h | 6.2h | 15.2h | 20.4h |
+| Additive observed work | 14.9h | 32.8h | 83.9h | 222.4h |
+| Interactive sessions | 12 | 17 | 49 | 174 |
+| Worker sessions | 76 | 96 | 127 | 199 |
 
 _Screen time from macos-pmset-display-assertions; collection status: ok. *365-day estimate uses observed calendar coverage._
 
@@ -27,7 +27,7 @@ _Periods are completed local calendar days ending at midnight; today is excluded
 
 _Human attention is unioned wall-clock time, so overlapping sessions are not double-counted. AI generation is additive machine work across sessions; it is not wall-clock concurrency._
 
-_AI session 365-day totals cover 141 days of local assistant session history (not extrapolated)._
+_AI session 365-day totals cover 142 days of local assistant session history (not extrapolated)._
 
 ## AI Model Usage (last 30 days)
 
@@ -78,7 +78,7 @@ _Model savings are modest because ~94.4% of tokens are cache reads, where price 
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-08-28 05:27 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-08-28 06:02 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
 
 <div align="center">
