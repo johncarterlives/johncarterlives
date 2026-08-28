@@ -12,14 +12,14 @@
 
 | Metric | Yesterday | Prior 7 Days | Prior 28 Days | Prior 365 Days |
 | --- | ---: | ---: | ---: | ---: |
-| Screen time (Mac) | 5.9h | 13.3h | 13.3h | ~611h* |
+| Screen time (Mac) | 5.9h | 12.6h | 12.6h | ~611h* |
 | Interactive human attention | 5.0h | 12.2h | 32.7h | 90.6h |
 | Interactive AI generation | 6.1h | 14.2h | 35.1h | 110.4h |
 | Worker-classified human attention | 0.2h | 0.2h | 1.9h | 1.9h |
 | Worker/headless AI generation | 3.8h | 6.2h | 15.2h | 20.4h |
 | Additive observed work | 14.9h | 32.8h | 83.9h | 222.4h |
-| Interactive sessions | 12 | 17 | 49 | 174 |
-| Worker sessions | 85 | 105 | 136 | 208 |
+| Interactive sessions | 13 | 18 | 50 | 175 |
+| Worker sessions | 88 | 108 | 139 | 211 |
 
 _Screen time from macos-pmset-display-assertions; collection status: ok. *365-day estimate uses observed calendar coverage._
 
@@ -33,15 +33,15 @@ _AI session 365-day totals cover 142 days of local assistant session history (no
 
 | Model | Requests | Input | Output | Cache read | API Cost | Cache savings | Model savings |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| gpt-5.6-sol | 7,682 | 40.5M | 1.8M | 1,026.7M | $801.68 | $2,772.14 | $1,828.24 |
-| gpt-5.6-terra | 1,233 | 8.8M | 217K | 93.2M | $42.03 | $251.86 | $231.49 |
+| gpt-5.6-sol | 7,771 | 40.9M | 1.8M | 1,036.4M | $809.09 | $2,798.43 | $1,845.03 |
+| gpt-5.6-terra | 1,247 | 9.0M | 218K | 93.7M | $42.55 | $253.14 | $234.43 |
 | gpt-5.6-luna | 827 | 11.6M | 305K | 85.5M | $5.58 | $230.89 | $260.96 |
 | gemma4-agent-mlx:latest | 1 | 41K | 9 | 0 | $0.12 | $0.00 | $0.50 |
-| **Total** | **9,743** | **61.1M** | **2.3M** | **1,205.5M** | **$849.41** | **$3,254.88** | **$2,321.19** |
+| **Total** | **9,846** | **61.7M** | **2.3M** | **1,215.7M** | **$857.34** | **$3,282.46** | **$2,340.92** |
 
-_1,269.0M total tokens processed. 95% cache hit rate._
+_1,279.8M total tokens processed. 95% cache hit rate._
 
-_$5,576.07 total saved ($3,254.88 caching + $2,321.19 model routing vs all-Opus)._
+_$5,623.38 total saved ($3,282.46 caching + $2,340.92 model routing vs all-Opus)._
 
 _Model savings are modest because ~95% of tokens are cache reads, where price differences between models are small._
 
@@ -49,19 +49,19 @@ _Model savings are modest because ~95% of tokens are cache reads, where price di
 
 | Model | Requests | Input | Output | Cache read | API Cost | Cache savings | Model savings |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| gpt-5.6-sol | 10,879 | 61.3M | 2.6M | 1,413.1M | $1,140.95 | $3,815.37 | $2,591.95 |
+| gpt-5.6-sol | 10,971 | 61.8M | 2.6M | 1,423.1M | $1,149.39 | $3,842.56 | $2,611.15 |
 | gpt-5.5 | 7,076 | 45.3M | 2.0M | 717.6M | $336.93 | $1,937.75 | $1,527.50 |
-| gpt-5.6-terra | 1,235 | 8.9M | 217K | 93.2M | $42.18 | $251.86 | $232.38 |
+| gpt-5.6-terra | 1,249 | 9.1M | 219K | 93.7M | $42.70 | $253.14 | $235.32 |
 | gemma4:26b-mlx | 82 | 4.1M | 26K | 0 | $12.87 | $0.00 | $51.49 |
 | gpt-5.6-luna | 827 | 11.6M | 305K | 85.5M | $5.58 | $230.89 | $260.96 |
 | gemma4-agent | 17 | 314K | 4K | 0 | $1.01 | $0.00 | $4.04 |
 | gemma4-agent-mlx:latest | 6 | 170K | 3K | 0 | $0.57 | $0.00 | $2.27 |
 | big-pickle | 2 | 64K | 126 | 0 | $0.20 | $0.00 | $0.98 |
-| **Total** | **20,124** | **131.9M** | **5.2M** | **2,309.5M** | **$1,540.29** | **$6,235.87** | **$4,671.57** |
+| **Total** | **20,230** | **132.6M** | **5.2M** | **2,320.1M** | **$1,549.25** | **$6,264.34** | **$4,693.72** |
 
-_2,446.8M total tokens processed. 94.4% cache hit rate._
+_2,458.0M total tokens processed. 94.4% cache hit rate._
 
-_$10,907.44 total saved ($6,235.87 caching + $4,671.57 model routing vs all-Opus)._
+_$10,958.06 total saved ($6,264.34 caching + $4,693.72 model routing vs all-Opus)._
 
 _Model savings are modest because ~94.4% of tokens are cache reads, where price differences between models are small._
 <!-- STATS-END -->
@@ -78,7 +78,7 @@ _Model savings are modest because ~94.4% of tokens are cache reads, where price 
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-08-28 11:16 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-08-28 12:20 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
 
 <div align="center">
