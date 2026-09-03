@@ -19,7 +19,7 @@
 | Worker/headless AI generation | 2.5h | 33.8h | 43.9h | 50.5h |
 | Additive observed work | 19.4h | 154.2h | 206.2h | 361.7h |
 | Interactive sessions | 19 | 90 | 114 | 252 |
-| Worker sessions | 116 | 509 | 552 | 632 |
+| Worker sessions | 118 | 511 | 554 | 634 |
 
 _Screen time from screen-time-history:daily-observations; collection status: ok. *365-day estimate uses observed calendar coverage._
 
@@ -33,15 +33,15 @@ _AI session 365-day totals cover 148 days of local assistant session history (no
 
 | Model | Requests | Input | Output | Cache read | API Cost | Cache savings | Model savings |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| gpt-5.6-sol | 14,893 | 74.9M | 3.7M | 2,018.2M | $1,561.67 | $5,449.27 | $3,546.89 |
-| gpt-5.6-terra | 5,898 | 46.7M | 1.0M | 468.4M | $213.78 | $1,264.90 | $1,183.89 |
-| gpt-5.6-luna | 890 | 12.3M | 352K | 89.1M | $6.30 | $240.62 | $276.18 |
+| gpt-5.6-sol | 14,908 | 74.9M | 3.7M | 2,021.1M | $1,563.45 | $5,457.20 | $3,550.79 |
+| gpt-5.6-terra | 5,980 | 47.0M | 1.0M | 476.3M | $216.15 | $1,286.09 | $1,197.29 |
+| gpt-5.6-luna | 891 | 12.3M | 352K | 89.1M | $6.31 | $240.62 | $276.63 |
 | Qwen3.8-27B-oQ6e-mtp:qwen38-q6-stable | 7 | 63K | 1K | 249K | $0.30 | $0.67 | $1.18 |
-| **Total** | **21,688** | **134.1M** | **5.1M** | **2,576.0M** | **$1,782.05** | **$6,955.46** | **$5,008.14** |
+| **Total** | **21,786** | **134.5M** | **5.1M** | **2,586.8M** | **$1,786.21** | **$6,984.59** | **$5,025.89** |
 
-_2,715.3M total tokens processed. 94.9% cache hit rate._
+_2,726.5M total tokens processed. 94.9% cache hit rate._
 
-_$11,963.60 total saved ($6,955.46 caching + $5,008.14 model routing vs all-Opus)._
+_$12,010.48 total saved ($6,984.59 caching + $5,025.89 model routing vs all-Opus)._
 
 _Model savings are modest because ~94.9% of tokens are cache reads, where price differences between models are small._
 
@@ -49,20 +49,20 @@ _Model savings are modest because ~94.9% of tokens are cache reads, where price 
 
 | Model | Requests | Input | Output | Cache read | API Cost | Cache savings | Model savings |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| gpt-5.6-sol | 19,139 | 102.0M | 4.8M | 2,549.4M | $2,015.70 | $6,883.43 | $4,573.84 |
+| gpt-5.6-sol | 19,154 | 102.0M | 4.8M | 2,552.3M | $2,017.48 | $6,891.37 | $4,577.74 |
 | gpt-5.5 | 7,076 | 45.3M | 2.0M | 717.6M | $336.93 | $1,937.75 | $1,527.50 |
-| gpt-5.6-terra | 5,900 | 46.8M | 1.0M | 468.4M | $213.93 | $1,264.90 | $1,184.78 |
+| gpt-5.6-terra | 5,982 | 47.1M | 1.0M | 476.3M | $216.30 | $1,286.09 | $1,198.18 |
 | gemma4:26b-mlx | 82 | 4.1M | 26K | 0 | $12.87 | $0.00 | $51.49 |
-| gpt-5.6-luna | 1,143 | 15.4M | 416K | 117.7M | $7.62 | $317.91 | $351.62 |
+| gpt-5.6-luna | 1,144 | 15.4M | 416K | 117.7M | $7.63 | $317.91 | $352.07 |
 | gemma4-agent | 17 | 314K | 4K | 0 | $1.01 | $0.00 | $4.04 |
 | gemma4-agent-mlx:latest | 6 | 170K | 3K | 0 | $0.57 | $0.00 | $2.27 |
 | Qwen3.8-27B-oQ6e-mtp:qwen38-q6-stable | 7 | 63K | 1K | 249K | $0.30 | $0.67 | $1.18 |
 | big-pickle | 2 | 64K | 126 | 0 | $0.20 | $0.00 | $0.98 |
-| **Total** | **33,372** | **214.4M** | **8.3M** | **3,853.5M** | **$2,589.13** | **$10,404.67** | **$7,697.71** |
+| **Total** | **33,470** | **214.7M** | **8.3M** | **3,864.3M** | **$2,593.29** | **$10,433.80** | **$7,715.46** |
 
-_4,076.3M total tokens processed. 94.5% cache hit rate._
+_4,087.4M total tokens processed. 94.5% cache hit rate._
 
-_$18,102.38 total saved ($10,404.67 caching + $7,697.71 model routing vs all-Opus)._
+_$18,149.26 total saved ($10,433.80 caching + $7,715.46 model routing vs all-Opus)._
 
 _Model savings are modest because ~94.5% of tokens are cache reads, where price differences between models are small._
 <!-- STATS-END -->
@@ -80,7 +80,7 @@ _Model savings are modest because ~94.5% of tokens are cache reads, where price 
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-09-03 22:02 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-09-03 23:04 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
 
 <div align="center">
