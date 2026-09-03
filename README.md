@@ -33,15 +33,15 @@ _AI session 365-day totals cover 147 days of local assistant session history (no
 
 | Model | Requests | Input | Output | Cache read | API Cost | Cache savings | Model savings |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| gpt-5.6-sol | 14,218 | 72.1M | 3.5M | 1,922.3M | $1,490.12 | $5,190.44 | $3,386.25 |
+| gpt-5.6-sol | 14,338 | 72.3M | 3.5M | 1,945.0M | $1,503.85 | $5,251.72 | $3,417.51 |
 | gpt-5.6-terra | 5,412 | 42.7M | 914K | 436.5M | $197.17 | $1,178.81 | $1,091.90 |
 | gpt-5.6-luna | 836 | 11.8M | 337K | 83.9M | $5.90 | $226.59 | $263.26 |
 | Qwen3.8-27B-oQ6e-mtp:qwen38-q6-stable | 7 | 63K | 1K | 249K | $0.30 | $0.67 | $1.18 |
-| **Total** | **20,473** | **126.8M** | **4.8M** | **2,443.1M** | **$1,693.49** | **$6,596.51** | **$4,742.59** |
+| **Total** | **20,593** | **126.9M** | **4.8M** | **2,465.8M** | **$1,707.22** | **$6,657.80** | **$4,773.84** |
 
-_2,574.8M total tokens processed. 94.9% cache hit rate._
+_2,597.6M total tokens processed. 94.9% cache hit rate._
 
-_$11,339.10 total saved ($6,596.51 caching + $4,742.59 model routing vs all-Opus)._
+_$11,431.64 total saved ($6,657.80 caching + $4,773.84 model routing vs all-Opus)._
 
 _Model savings are modest because ~94.9% of tokens are cache reads, where price differences between models are small._
 
@@ -49,7 +49,7 @@ _Model savings are modest because ~94.9% of tokens are cache reads, where price 
 
 | Model | Requests | Input | Output | Cache read | API Cost | Cache savings | Model savings |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| gpt-5.6-sol | 18,202 | 97.9M | 4.5M | 2,417.5M | $1,917.09 | $6,527.29 | $4,351.57 |
+| gpt-5.6-sol | 18,322 | 98.1M | 4.6M | 2,440.2M | $1,930.82 | $6,588.57 | $4,382.82 |
 | gpt-5.5 | 7,076 | 45.3M | 2.0M | 717.6M | $336.93 | $1,937.75 | $1,527.50 |
 | gpt-5.6-terra | 5,414 | 42.8M | 915K | 436.5M | $197.32 | $1,178.81 | $1,092.79 |
 | gemma4:26b-mlx | 82 | 4.1M | 26K | 0 | $12.87 | $0.00 | $51.49 |
@@ -58,13 +58,13 @@ _Model savings are modest because ~94.9% of tokens are cache reads, where price 
 | gemma4-agent-mlx:latest | 6 | 170K | 3K | 0 | $0.57 | $0.00 | $2.27 |
 | Qwen3.8-27B-oQ6e-mtp:qwen38-q6-stable | 7 | 63K | 1K | 249K | $0.30 | $0.67 | $1.18 |
 | big-pickle | 2 | 64K | 126 | 0 | $0.20 | $0.00 | $0.98 |
-| **Total** | **31,875** | **205.3M** | **7.9M** | **3,683.0M** | **$2,473.37** | **$9,944.21** | **$7,362.76** |
+| **Total** | **31,995** | **205.5M** | **8.0M** | **3,705.7M** | **$2,487.10** | **$10,005.50** | **$7,394.02** |
 
-_3,896.3M total tokens processed. 94.5% cache hit rate._
+_3,919.2M total tokens processed. 94.6% cache hit rate._
 
-_$17,306.98 total saved ($9,944.21 caching + $7,362.76 model routing vs all-Opus)._
+_$17,399.52 total saved ($10,005.50 caching + $7,394.02 model routing vs all-Opus)._
 
-_Model savings are modest because ~94.5% of tokens are cache reads, where price differences between models are small._
+_Model savings are modest because ~94.6% of tokens are cache reads, where price differences between models are small._
 <!-- STATS-END -->
 
 <!-- CONTRIBUTIONS-START -->
@@ -80,7 +80,7 @@ _Model savings are modest because ~94.5% of tokens are cache reads, where price 
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-09-03 03:28 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-09-03 04:01 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
 
 <div align="center">
