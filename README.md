@@ -19,7 +19,7 @@
 | Worker/headless AI generation | 2.5h | 33.8h | 43.9h | 50.5h |
 | Additive observed work | 19.4h | 154.2h | 206.2h | 361.7h |
 | Interactive sessions | 13 | 85 | 109 | 247 |
-| Worker sessions | 79 | 472 | 515 | 595 |
+| Worker sessions | 89 | 482 | 525 | 605 |
 
 _Screen time from screen-time-history:daily-observations; collection status: ok. *365-day estimate uses observed calendar coverage._
 
@@ -33,15 +33,15 @@ _AI session 365-day totals cover 148 days of local assistant session history (no
 
 | Model | Requests | Input | Output | Cache read | API Cost | Cache savings | Model savings |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| gpt-5.6-sol | 14,529 | 73.2M | 3.6M | 1,976.4M | $1,527.01 | $5,336.46 | $3,470.49 |
-| gpt-5.6-terra | 5,547 | 44.6M | 932K | 443.0M | $202.74 | $1,196.36 | $1,123.78 |
-| gpt-5.6-luna | 852 | 11.9M | 341K | 85.1M | $6.02 | $229.97 | $266.05 |
+| gpt-5.6-sol | 14,535 | 73.3M | 3.6M | 1,975.4M | $1,526.68 | $5,333.70 | $3,469.73 |
+| gpt-5.6-terra | 5,726 | 45.5M | 978K | 456.6M | $208.16 | $1,233.00 | $1,152.90 |
+| gpt-5.6-luna | 877 | 12.1M | 348K | 87.8M | $6.20 | $237.14 | $272.17 |
 | Qwen3.8-27B-oQ6e-mtp:qwen38-q6-stable | 7 | 63K | 1K | 249K | $0.30 | $0.67 | $1.18 |
-| **Total** | **20,935** | **129.9M** | **4.9M** | **2,504.9M** | **$1,736.07** | **$6,763.46** | **$4,861.50** |
+| **Total** | **21,145** | **131.0M** | **4.9M** | **2,520.1M** | **$1,741.34** | **$6,804.52** | **$4,895.98** |
 
-_2,639.8M total tokens processed. 94.9% cache hit rate._
+_2,656.2M total tokens processed. 94.9% cache hit rate._
 
-_$11,624.96 total saved ($6,763.46 caching + $4,861.50 model routing vs all-Opus)._
+_$11,700.49 total saved ($6,804.52 caching + $4,895.98 model routing vs all-Opus)._
 
 _Model savings are modest because ~94.9% of tokens are cache reads, where price differences between models are small._
 
@@ -49,20 +49,20 @@ _Model savings are modest because ~94.9% of tokens are cache reads, where price 
 
 | Model | Requests | Input | Output | Cache read | API Cost | Cache savings | Model savings |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| gpt-5.6-sol | 18,558 | 99.4M | 4.6M | 2,475.8M | $1,958.51 | $6,684.92 | $4,446.14 |
+| gpt-5.6-sol | 18,607 | 99.7M | 4.7M | 2,480.8M | $1,963.20 | $6,698.38 | $4,456.50 |
 | gpt-5.5 | 7,076 | 45.3M | 2.0M | 717.6M | $336.93 | $1,937.75 | $1,527.50 |
-| gpt-5.6-terra | 5,549 | 44.7M | 932K | 443.0M | $202.89 | $1,196.36 | $1,124.67 |
+| gpt-5.6-terra | 5,728 | 45.5M | 979K | 456.6M | $208.31 | $1,233.00 | $1,153.79 |
 | gemma4:26b-mlx | 82 | 4.1M | 26K | 0 | $12.87 | $0.00 | $51.49 |
-| gpt-5.6-luna | 1,101 | 14.7M | 404K | 113.7M | $7.28 | $307.26 | $338.05 |
+| gpt-5.6-luna | 1,126 | 14.9M | 411K | 116.4M | $7.46 | $314.43 | $344.17 |
 | gemma4-agent | 17 | 314K | 4K | 0 | $1.01 | $0.00 | $4.04 |
 | gemma4-agent-mlx:latest | 6 | 170K | 3K | 0 | $0.57 | $0.00 | $2.27 |
 | Qwen3.8-27B-oQ6e-mtp:qwen38-q6-stable | 7 | 63K | 1K | 249K | $0.30 | $0.67 | $1.18 |
 | big-pickle | 2 | 64K | 126 | 0 | $0.20 | $0.00 | $0.98 |
-| **Total** | **32,398** | **209.0M** | **8.1M** | **3,750.7M** | **$2,520.56** | **$10,126.97** | **$7,496.32** |
+| **Total** | **32,651** | **210.4M** | **8.1M** | **3,771.9M** | **$2,530.85** | **$10,184.23** | **$7,541.92** |
 
-_3,967.9M total tokens processed. 94.5% cache hit rate._
+_3,990.5M total tokens processed. 94.5% cache hit rate._
 
-_$17,623.29 total saved ($10,126.97 caching + $7,496.32 model routing vs all-Opus)._
+_$17,726.15 total saved ($10,184.23 caching + $7,541.92 model routing vs all-Opus)._
 
 _Model savings are modest because ~94.5% of tokens are cache reads, where price differences between models are small._
 <!-- STATS-END -->
@@ -80,7 +80,7 @@ _Model savings are modest because ~94.5% of tokens are cache reads, where price 
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-09-03 12:33 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-09-03 13:09 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
 
 <div align="center">
