@@ -18,8 +18,8 @@
 | Worker-classified human attention | 0.1h | 0.1h | 0.9h | 2.0h |
 | Worker/headless AI generation | 2.4h | 32.4h | 46.3h | 52.9h |
 | Additive observed work | 21.0h | 160.3h | 227.1h | 382.7h |
-| Interactive sessions | 22 | 92 | 126 | 264 |
-| Worker sessions | 115 | 497 | 616 | 696 |
+| Interactive sessions | 23 | 93 | 127 | 265 |
+| Worker sessions | 121 | 503 | 622 | 702 |
 
 _Screen time from screen-time-history:daily-observations; collection status: ok. *365-day estimate uses observed calendar coverage._
 
@@ -33,25 +33,25 @@ _AI session 365-day totals cover 149 days of local assistant session history (no
 
 | Model | Requests | Input | Output | Cache read | Cache Hit-Rate % | Session Count | Session Hours |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| gpt-5.6-sol | 15,484 | 76.4M | 3.8M | 2,098.3M | 96.5% | 104 | 120.7h |
-| gpt-5.6-terra | 6,257 | 50.4M | 1.0M | 491.6M | 90.7% | 558 | 21.2h |
-| gpt-5.6-luna | 912 | 13.1M | 353K | 89.1M | 87.2% | 79 | 28.5h |
+| gpt-5.6-sol | 15,500 | 76.9M | 3.8M | 2,099.4M | 96.5% | 105 | 120.8h |
+| gpt-5.6-terra | 6,299 | 50.8M | 1.0M | 493.8M | 90.7% | 563 | 21.5h |
+| gpt-5.6-luna | 936 | 13.2M | 355K | 92.0M | 87.4% | 80 | 28.5h |
 | muse-spark-1.3-contributor-free | 44 | 323K | 10K | 5.3M | 94.3% | 2 | 0.1h |
 | big-pickle | 42 | 193K | 15K | 3.0M | 94.1% | 1 | 0.1h |
 | Qwen3.8-27B-oQ6e-mtp:qwen38-q6-stable | 7 | 63K | 1K | 249K | 79.7% | 1 | 0.3h |
 | mtplx-qwen38-27b-optimized-quality | 1 | 0 | 0 | 0 | 0.0% | 1 | 0.0h |
-| **Total** | **22,747** | **140.5M** | **5.2M** | **2,687.7M** | **95%** | **727** | **171.0h** |
+| **Total** | **22,829** | **141.6M** | **5.3M** | **2,694.0M** | **95%** | **733** | **171.4h** |
 
-_2,833.6M total tokens processed. 95% cache hit rate._
+_2,841.0M total tokens processed. 95% cache hit rate._
 
 ## AI Model Usage (all time)
 
 | Model | Requests | Input | Output | Cache read | Cache Hit-Rate % | Session Count | Session Hours |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| gpt-5.6-sol | 20,759 | 107.9M | 5.1M | 2,758.2M | 96.2% | 171 | 171.1h |
+| gpt-5.6-sol | 20,775 | 108.4M | 5.1M | 2,759.3M | 96.2% | 172 | 171.2h |
 | gpt-5.5 | 7,076 | 45.3M | 2.0M | 717.6M | 94.1% | 127 | 33.4h |
-| gpt-5.6-terra | 6,259 | 50.5M | 1.0M | 491.6M | 90.7% | 560 | 21.2h |
-| gpt-5.6-luna | 1,166 | 16.3M | 417K | 117.7M | 87.8% | 88 | 29.4h |
+| gpt-5.6-terra | 6,301 | 50.9M | 1.0M | 493.8M | 90.6% | 565 | 21.5h |
+| gpt-5.6-luna | 1,190 | 16.4M | 418K | 120.6M | 88.0% | 89 | 29.5h |
 | gemma4:26b-mlx | 82 | 4.1M | 26K | 0 | 0.0% | 5 | 1.1h |
 | big-pickle | 44 | 257K | 15K | 3.0M | 92.3% | 3 | 0.2h |
 | muse-spark-1.3-contributor-free | 44 | 323K | 10K | 5.3M | 94.3% | 2 | 0.1h |
@@ -59,9 +59,9 @@ _2,833.6M total tokens processed. 95% cache hit rate._
 | Qwen3.8-27B-oQ6e-mtp:qwen38-q6-stable | 7 | 63K | 1K | 249K | 79.7% | 1 | 0.3h |
 | gemma4-agent-mlx:latest | 6 | 170K | 3K | 0 | 0.0% | 2 | 0.1h |
 | mtplx-qwen38-27b-optimized-quality | 1 | 0 | 0 | 0 | 0.0% | 1 | 0.0h |
-| **Total** | **35,461** | **225.4M** | **8.7M** | **4,093.9M** | **94.8%** | **941** | **257.2h** |
+| **Total** | **35,543** | **226.5M** | **8.7M** | **4,100.2M** | **94.8%** | **947** | **257.6h** |
 
-_4,328.2M total tokens processed. 94.8% cache hit rate._
+_4,335.5M total tokens processed. 94.8% cache hit rate._
 <!-- STATS-END -->
 
 <!-- CONTRIBUTIONS-START -->
@@ -77,11 +77,11 @@ _4,328.2M total tokens processed. 94.8% cache hit rate._
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-09-05 01:13 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-09-05 02:12 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
 
 <div align="center">
-  <a href="https://commit-history.com/johncarterlives">
+  <a href="https://commit-history.com/johncarterlives?metric=total">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://commit-history.com/embed/johncarterlives?theme=dark" />
     <img alt="johncarterlives's commit history" src="https://commit-history.com/embed/johncarterlives" />
