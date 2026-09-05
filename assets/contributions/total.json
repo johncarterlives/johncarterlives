@@ -1,0 +1,40 @@
+{
+  "schema": "aidevops.total-contributions/v1",
+  "user": "johncarterlives",
+  "updated": "2026-09-05",
+  "through": "2026-09-04",
+  "metric": "GitHub contributionCalendar.totalContributions",
+  "total": 344,
+  "months": [
+    {
+      "month": "2026-04",
+      "total": 1,
+      "cumulative": 1
+    },
+    {
+      "month": "2026-05",
+      "total": 0,
+      "cumulative": 1
+    },
+    {
+      "month": "2026-06",
+      "total": 0,
+      "cumulative": 1
+    },
+    {
+      "month": "2026-07",
+      "total": 18,
+      "cumulative": 19
+    },
+    {
+      "month": "2026-08",
+      "total": 210,
+      "cumulative": 229
+    },
+    {
+      "month": "2026-09",
+      "total": 115,
+      "cumulative": 344
+    }
+  ]
+}
