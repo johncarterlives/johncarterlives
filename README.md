@@ -18,8 +18,8 @@
 | Worker-classified human attention | 3.9h | 7.3h | 7.5h | 9.1h |
 | Worker/headless AI generation | 14.0h | 40.4h | 78.5h | 88.3h |
 | Additive observed work | 32.7h | 146.8h | 322.7h | 489.1h |
-| Interactive sessions | 22 | 68 | 158 | 301 |
-| Worker sessions | 88 | 351 | 779 | 867 |
+| Interactive sessions | 24 | 70 | 160 | 303 |
+| Worker sessions | 94 | 357 | 785 | 873 |
 
 _Screen time from screen-time-history:daily-observations; collection status: ok. *365-day estimate uses observed calendar coverage._
 
@@ -33,28 +33,28 @@ _AI session 365-day totals cover 154 days of local assistant session history (no
 
 | Model | Requests | Input | Output | Cache read | Cache Hit-Rate % | Session Count | Session Hours |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| gpt-5.6-sol | 20,125 | 94.2M | 4.7M | 2,750.6M | 96.7% | 140 | 174.3h |
-| gpt-5.6-terra | 7,973 | 68.1M | 1.3M | 615.1M | 90.0% | 685 | 27.2h |
-| gpt-6-astra | 3,376 | 10.3M | 830K | 620.7M | 98.4% | 20 | 23.3h |
-| gpt-5.6-luna | 1,029 | 15.0M | 364K | 95.4M | 86.4% | 108 | 28.7h |
+| gpt-5.6-sol | 20,347 | 94.9M | 4.7M | 2,779.2M | 96.7% | 144 | 175.4h |
+| gpt-5.6-terra | 8,003 | 68.3M | 1.4M | 617.6M | 90.0% | 687 | 27.4h |
+| gpt-6-astra | 3,467 | 10.4M | 841K | 647.8M | 98.4% | 20 | 23.7h |
+| gpt-5.6-luna | 1,031 | 15.1M | 364K | 95.4M | 86.3% | 110 | 28.7h |
 | muse-spark-1.3-contributor-free | 44 | 323K | 10K | 5.3M | 94.3% | 2 | 0.1h |
 | big-pickle | 42 | 193K | 15K | 3.0M | 94.1% | 1 | 0.1h |
 | Qwen3.8-27B-oQ6e-mtp:qwen38-q6-stable | 7 | 63K | 1K | 249K | 79.7% | 1 | 0.3h |
 | mtplx-qwen38-27b-optimized-quality | 1 | 0 | 0 | 0 | 0.0% | 1 | 0.0h |
 | nemotron-3.5-lightning-30b-a3b | 1 | 49K | 107 | 0 | 0.0% | 1 | 0.0h |
-| **Total** | **32,598** | **188.4M** | **7.3M** | **4,090.6M** | **95.6%** | **928** | **254.1h** |
+| **Total** | **32,943** | **189.5M** | **7.4M** | **4,148.8M** | **95.6%** | **936** | **255.6h** |
 
-_4,286.5M total tokens processed. 95.6% cache hit rate._
+_4,345.8M total tokens processed. 95.6% cache hit rate._
 
 ## AI Model Usage (all time)
 
 | Model | Requests | Input | Output | Cache read | Cache Hit-Rate % | Session Count | Session Hours |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| gpt-5.6-sol | 26,142 | 129.7M | 6.2M | 3,519.0M | 96.4% | 208 | 229.3h |
-| gpt-5.6-terra | 7,987 | 68.6M | 1.3M | 615.9M | 90.0% | 689 | 27.3h |
+| gpt-5.6-sol | 26,364 | 130.4M | 6.3M | 3,547.6M | 96.5% | 212 | 230.3h |
+| gpt-5.6-terra | 8,017 | 68.8M | 1.4M | 618.4M | 90.0% | 691 | 27.4h |
 | gpt-5.5 | 7,076 | 45.3M | 2.0M | 717.6M | 94.1% | 127 | 33.4h |
-| gpt-6-astra | 3,376 | 10.3M | 830K | 620.7M | 98.4% | 20 | 23.3h |
-| gpt-5.6-luna | 1,289 | 18.4M | 429K | 124.5M | 87.1% | 120 | 29.7h |
+| gpt-6-astra | 3,467 | 10.4M | 841K | 647.8M | 98.4% | 20 | 23.7h |
+| gpt-5.6-luna | 1,291 | 18.5M | 429K | 124.5M | 87.0% | 122 | 29.7h |
 | gemma4:26b-mlx | 82 | 4.1M | 26K | 0 | 0.0% | 5 | 1.1h |
 | big-pickle | 44 | 257K | 15K | 3.0M | 92.3% | 3 | 0.2h |
 | muse-spark-1.3-contributor-free | 44 | 323K | 10K | 5.3M | 94.3% | 2 | 0.1h |
@@ -63,9 +63,9 @@ _4,286.5M total tokens processed. 95.6% cache hit rate._
 | gemma4-agent-mlx:latest | 6 | 170K | 3K | 0 | 0.0% | 2 | 0.1h |
 | mtplx-qwen38-27b-optimized-quality | 1 | 0 | 0 | 0 | 0.0% | 1 | 0.0h |
 | nemotron-3.5-lightning-30b-a3b | 1 | 49K | 107 | 0 | 0.0% | 1 | 0.0h |
-| **Total** | **46,072** | **277.8M** | **11.0M** | **5,606.6M** | **95.3%** | **1,147** | **344.9h** |
+| **Total** | **46,417** | **278.9M** | **11.1M** | **5,664.7M** | **95.3%** | **1,155** | **346.5h** |
 
-_5,895.5M total tokens processed. 95.3% cache hit rate._
+_5,954.8M total tokens processed. 95.3% cache hit rate._
 <!-- STATS-END -->
 
 <!-- CONTRIBUTIONS-START -->
@@ -81,7 +81,7 @@ _5,895.5M total tokens processed. 95.3% cache hit rate._
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-09-09 20:34 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-09-09 21:11 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
 
 <!-- TOTAL-CONTRIBUTIONS-START -->
