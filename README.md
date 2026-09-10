@@ -19,7 +19,7 @@
 | Worker/headless AI generation | 8.6h | 46.4h | 84.9h | 96.9h |
 | Additive observed work | 30.5h | 157.9h | 346.0h | 519.6h |
 | Interactive sessions | 24 | 71 | 170 | 313 |
-| Worker sessions | 116 | 356 | 844 | 937 |
+| Worker sessions | 120 | 360 | 848 | 941 |
 
 _Screen time from screen-time-history:daily-observations; collection status: ok. *365-day estimate uses observed calendar coverage._
 
@@ -33,28 +33,28 @@ _AI session 365-day totals cover 155 days of local assistant session history (no
 
 | Model | Requests | Input | Output | Cache read | Cache Hit-Rate % | Session Count | Session Hours |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| gpt-5.6-sol | 21,881 | 101.7M | 5.0M | 2,962.6M | 96.7% | 175 | 183.2h |
+| gpt-5.6-sol | 21,920 | 101.9M | 5.0M | 2,965.1M | 96.7% | 177 | 183.3h |
 | gpt-5.6-terra | 8,534 | 72.5M | 1.4M | 667.3M | 90.2% | 710 | 29.3h |
 | gpt-6-astra | 3,511 | 10.7M | 851K | 653.3M | 98.4% | 23 | 23.8h |
-| gpt-5.6-luna | 1,058 | 16.1M | 359K | 95.3M | 85.5% | 131 | 28.5h |
+| gpt-5.6-luna | 1,060 | 16.2M | 359K | 95.3M | 85.5% | 133 | 28.5h |
 | muse-spark-1.3-contributor-free | 44 | 323K | 10K | 5.3M | 94.3% | 2 | 0.1h |
 | big-pickle | 42 | 193K | 15K | 3.0M | 94.1% | 1 | 0.1h |
 | Qwen3.8-27B-oQ6e-mtp:qwen38-q6-stable | 7 | 63K | 1K | 249K | 79.7% | 1 | 0.3h |
 | mtplx-qwen38-27b-optimized-quality | 1 | 0 | 0 | 0 | 0.0% | 1 | 0.0h |
 | nemotron-3.5-lightning-30b-a3b | 1 | 49K | 107 | 0 | 0.0% | 1 | 0.0h |
-| **Total** | **35,079** | **201.7M** | **7.7M** | **4,387.3M** | **95.6%** | **1,008** | **265.4h** |
+| **Total** | **35,120** | **202.0M** | **7.7M** | **4,389.9M** | **95.6%** | **1,012** | **265.5h** |
 
-_4,596.9M total tokens processed. 95.6% cache hit rate._
+_4,599.7M total tokens processed. 95.6% cache hit rate._
 
 ## AI Model Usage (all time)
 
 | Model | Requests | Input | Output | Cache read | Cache Hit-Rate % | Session Count | Session Hours |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| gpt-5.6-sol | 27,941 | 137.6M | 6.6M | 3,735.1M | 96.4% | 243 | 238.5h |
+| gpt-5.6-sol | 27,980 | 137.7M | 6.6M | 3,737.7M | 96.4% | 245 | 238.7h |
 | gpt-5.6-terra | 8,548 | 72.9M | 1.5M | 668.1M | 90.2% | 714 | 29.4h |
 | gpt-5.5 | 7,076 | 45.3M | 2.0M | 717.6M | 94.1% | 127 | 33.4h |
 | gpt-6-astra | 3,511 | 10.7M | 851K | 653.3M | 98.4% | 23 | 23.8h |
-| gpt-5.6-luna | 1,337 | 19.7M | 431K | 126.4M | 86.5% | 144 | 29.7h |
+| gpt-5.6-luna | 1,339 | 19.8M | 431K | 126.4M | 86.4% | 146 | 29.7h |
 | gemma4:26b-mlx | 82 | 4.1M | 26K | 0 | 0.0% | 5 | 1.1h |
 | big-pickle | 44 | 257K | 15K | 3.0M | 92.3% | 3 | 0.2h |
 | muse-spark-1.3-contributor-free | 44 | 323K | 10K | 5.3M | 94.3% | 2 | 0.1h |
@@ -63,9 +63,9 @@ _4,596.9M total tokens processed. 95.6% cache hit rate._
 | gemma4-agent-mlx:latest | 6 | 170K | 3K | 0 | 0.0% | 2 | 0.1h |
 | mtplx-qwen38-27b-optimized-quality | 1 | 0 | 0 | 0 | 0.0% | 1 | 0.0h |
 | nemotron-3.5-lightning-30b-a3b | 1 | 49K | 107 | 0 | 0.0% | 1 | 0.0h |
-| **Total** | **48,615** | **291.7M** | **11.4M** | **5,909.4M** | **95.3%** | **1,228** | **356.9h** |
+| **Total** | **48,656** | **292.0M** | **11.5M** | **5,912.0M** | **95.3%** | **1,232** | **357.0h** |
 
-_6,212.7M total tokens processed. 95.3% cache hit rate._
+_6,215.5M total tokens processed. 95.3% cache hit rate._
 <!-- STATS-END -->
 
 <!-- CONTRIBUTIONS-START -->
@@ -81,7 +81,7 @@ _6,212.7M total tokens processed. 95.3% cache hit rate._
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-09-10 10:08 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-09-10 11:13 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
 
 <!-- TOTAL-CONTRIBUTIONS-START -->
