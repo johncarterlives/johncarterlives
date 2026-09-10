@@ -12,14 +12,14 @@
 
 | Metric | Yesterday | Prior 7 Days | Prior 28 Days | Prior 365 Days |
 | --- | ---: | ---: | ---: | ---: |
-| Screen time (Mac) | 14.6h | 45.6h | 147.3h | ~2688h* |
+| Screen time (Mac) | 14.6h | 45.7h | 161.9h | ~2814h* |
 | Interactive human attention | 7.5h | 35.6h | 83.7h | 155.8h |
 | Interactive AI generation | 13.3h | 72.2h | 173.6h | 262.2h |
 | Worker-classified human attention | 2.7h | 10.0h | 10.2h | 11.9h |
 | Worker/headless AI generation | 8.6h | 46.4h | 84.9h | 96.9h |
 | Additive observed work | 30.5h | 157.9h | 346.0h | 519.6h |
 | Interactive sessions | 24 | 71 | 170 | 313 |
-| Worker sessions | 104 | 344 | 832 | 925 |
+| Worker sessions | 108 | 348 | 836 | 929 |
 
 _Screen time from screen-time-history:daily-observations; collection status: ok. *365-day estimate uses observed calendar coverage._
 
@@ -33,28 +33,28 @@ _AI session 365-day totals cover 155 days of local assistant session history (no
 
 | Model | Requests | Input | Output | Cache read | Cache Hit-Rate % | Session Count | Session Hours |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| gpt-5.6-sol | 21,806 | 101.4M | 5.0M | 2,958.1M | 96.7% | 169 | 182.9h |
+| gpt-5.6-sol | 21,830 | 101.5M | 5.0M | 2,959.6M | 96.7% | 171 | 183.0h |
 | gpt-5.6-terra | 8,534 | 72.5M | 1.4M | 667.3M | 90.2% | 710 | 29.3h |
 | gpt-6-astra | 3,511 | 10.7M | 851K | 653.3M | 98.4% | 23 | 23.8h |
-| gpt-5.6-luna | 1,052 | 15.8M | 359K | 95.3M | 85.8% | 125 | 28.5h |
+| gpt-5.6-luna | 1,054 | 15.9M | 359K | 95.3M | 85.7% | 127 | 28.5h |
 | muse-spark-1.3-contributor-free | 44 | 323K | 10K | 5.3M | 94.3% | 2 | 0.1h |
 | big-pickle | 42 | 193K | 15K | 3.0M | 94.1% | 1 | 0.1h |
 | Qwen3.8-27B-oQ6e-mtp:qwen38-q6-stable | 7 | 63K | 1K | 249K | 79.7% | 1 | 0.3h |
 | mtplx-qwen38-27b-optimized-quality | 1 | 0 | 0 | 0 | 0.0% | 1 | 0.0h |
 | nemotron-3.5-lightning-30b-a3b | 1 | 49K | 107 | 0 | 0.0% | 1 | 0.0h |
-| **Total** | **34,998** | **201.1M** | **7.7M** | **4,382.9M** | **95.6%** | **996** | **265.1h** |
+| **Total** | **35,024** | **201.3M** | **7.7M** | **4,384.3M** | **95.6%** | **1,000** | **265.2h** |
 
-_4,591.8M total tokens processed. 95.6% cache hit rate._
+_4,593.5M total tokens processed. 95.6% cache hit rate._
 
 ## AI Model Usage (all time)
 
 | Model | Requests | Input | Output | Cache read | Cache Hit-Rate % | Session Count | Session Hours |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| gpt-5.6-sol | 27,866 | 137.3M | 6.6M | 3,730.7M | 96.5% | 237 | 238.3h |
+| gpt-5.6-sol | 27,890 | 137.4M | 6.6M | 3,732.1M | 96.4% | 239 | 238.4h |
 | gpt-5.6-terra | 8,548 | 72.9M | 1.5M | 668.1M | 90.2% | 714 | 29.4h |
 | gpt-5.5 | 7,076 | 45.3M | 2.0M | 717.6M | 94.1% | 127 | 33.4h |
 | gpt-6-astra | 3,511 | 10.7M | 851K | 653.3M | 98.4% | 23 | 23.8h |
-| gpt-5.6-luna | 1,331 | 19.5M | 431K | 126.4M | 86.6% | 138 | 29.7h |
+| gpt-5.6-luna | 1,333 | 19.5M | 431K | 126.4M | 86.6% | 140 | 29.7h |
 | gemma4:26b-mlx | 82 | 4.1M | 26K | 0 | 0.0% | 5 | 1.1h |
 | big-pickle | 44 | 257K | 15K | 3.0M | 92.3% | 3 | 0.2h |
 | muse-spark-1.3-contributor-free | 44 | 323K | 10K | 5.3M | 94.3% | 2 | 0.1h |
@@ -63,9 +63,9 @@ _4,591.8M total tokens processed. 95.6% cache hit rate._
 | gemma4-agent-mlx:latest | 6 | 170K | 3K | 0 | 0.0% | 2 | 0.1h |
 | mtplx-qwen38-27b-optimized-quality | 1 | 0 | 0 | 0 | 0.0% | 1 | 0.0h |
 | nemotron-3.5-lightning-30b-a3b | 1 | 49K | 107 | 0 | 0.0% | 1 | 0.0h |
-| **Total** | **48,534** | **291.1M** | **11.4M** | **5,905.0M** | **95.3%** | **1,216** | **356.6h** |
+| **Total** | **48,560** | **291.3M** | **11.4M** | **5,906.4M** | **95.3%** | **1,220** | **356.7h** |
 
-_6,207.6M total tokens processed. 95.3% cache hit rate._
+_6,209.3M total tokens processed. 95.3% cache hit rate._
 <!-- STATS-END -->
 
 <!-- CONTRIBUTIONS-START -->
@@ -81,7 +81,7 @@ _6,207.6M total tokens processed. 95.3% cache hit rate._
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-09-10 06:15 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-09-10 07:20 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
 
 <!-- TOTAL-CONTRIBUTIONS-START -->
