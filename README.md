@@ -12,14 +12,14 @@
 
 | Metric | Yesterday | Prior 7 Days | Prior 28 Days | Prior 365 Days |
 | --- | ---: | ---: | ---: | ---: |
-| Screen time (Mac) | 4.4h | 25.4h | 225.2h | ~2477h* |
+| Screen time (Mac) | 4.4h | 25.2h | 225.2h | ~2477h* |
 | Interactive human attention | 5.9h | 32.1h | 127.2h | 211.0h |
 | Interactive AI generation | 10.1h | 67.7h | 327.2h | 427.7h |
 | Worker-classified human attention | 6.5h | 60.2h | 106.9h | 108.5h |
 | Worker/headless AI generation | 3.8h | 19.2h | 123.0h | 138.1h |
 | Additive observed work | 23.1h | 166.3h | 652.7h | 853.0h |
 | Interactive sessions | 17 | 64 | 262 | 424 |
-| Worker sessions | 167 | 737 | 2,140 | 2,252 |
+| Worker sessions | 169 | 739 | 2,142 | 2,254 |
 
 _Screen time from screen-time-history:daily-observations; collection status: ok. *365-day estimate uses observed calendar coverage._
 
@@ -33,11 +33,11 @@ _AI session 365-day totals cover 168 days of local assistant session history (no
 
 | Model | Requests | Input | Output | Cache read | Cache Hit-Rate % | Session Count | Session Hours |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| gpt-5.6-sol | 35,299 | 153.8M | 8.0M | 4,790.1M | 96.9% | 379 | 304.9h |
+| gpt-5.6-sol | 35,132 | 153.4M | 8.0M | 4,766.0M | 96.9% | 379 | 304.2h |
 | gpt-5.6-terra | 15,809 | 269.6M | 2.7M | 1,189.0M | 81.5% | 1,518 | 53.1h |
 | gpt-6-astra | 5,612 | 29.3M | 1.7M | 1,104.0M | 97.4% | 58 | 67.5h |
-| gpt-5.6-luna | 1,486 | 36.3M | 275K | 114.2M | 75.9% | 441 | 25.9h |
-| gpt-6-sol | 231 | 1.3M | 25K | 17.2M | 92.7% | 21 | 1.1h |
+| gpt-5.6-luna | 1,432 | 35.3M | 257K | 108.5M | 75.4% | 439 | 25.6h |
+| gpt-6-sol | 242 | 1.4M | 26K | 17.8M | 92.3% | 23 | 1.1h |
 | muse-spark-1.3-contributor-free | 63 | 906K | 23K | 7.6M | 89.4% | 3 | 0.2h |
 | big-pickle | 42 | 193K | 15K | 3.0M | 94.1% | 1 | 0.1h |
 | gpt-6-luna | 38 | 2.6M | 1K | 233K | 8.2% | 38 | 0.1h |
@@ -46,9 +46,9 @@ _AI session 365-day totals cover 168 days of local assistant session history (no
 | mtplx-qwen38-27b-optimized-quality | 1 | 0 | 0 | 0 | 0.0% | 1 | 0.0h |
 | nemotron-3.5-lightning-30b-a3b | 1 | 49K | 107 | 0 | 0.0% | 1 | 0.0h |
 | qwen/qwen3.8-flash | 1 | 0 | 0 | 0 | 0.0% | 1 | 0.0h |
-| **Total** | **58,612** | **494.4M** | **12.9M** | **7,227.2M** | **93.6%** | **2,381** | **453.3h** |
+| **Total** | **58,402** | **493.2M** | **12.8M** | **7,198.1M** | **93.6%** | **2,381** | **452.3h** |
 
-_7,734.7M total tokens processed. 93.6% cache hit rate._
+_7,704.2M total tokens processed. 93.6% cache hit rate._
 
 ## AI Model Usage (all time)
 
@@ -59,7 +59,7 @@ _7,734.7M total tokens processed. 93.6% cache hit rate._
 | gpt-5.5 | 7,076 | 45.3M | 2.0M | 717.6M | 94.1% | 127 | 33.4h |
 | gpt-6-astra | 5,612 | 29.3M | 1.7M | 1,104.0M | 97.4% | 58 | 67.5h |
 | gpt-5.6-luna | 2,137 | 45.5M | 522K | 181.2M | 79.9% | 466 | 31.7h |
-| gpt-6-sol | 231 | 1.3M | 25K | 17.2M | 92.7% | 21 | 1.1h |
+| gpt-6-sol | 242 | 1.4M | 26K | 17.8M | 92.3% | 23 | 1.1h |
 | gemma4:26b-mlx | 82 | 4.1M | 26K | 0 | 0.0% | 5 | 1.1h |
 | muse-spark-1.3-contributor-free | 63 | 906K | 23K | 7.6M | 89.4% | 3 | 0.2h |
 | big-pickle | 44 | 257K | 15K | 3.0M | 92.3% | 3 | 0.2h |
@@ -71,9 +71,9 @@ _7,734.7M total tokens processed. 93.6% cache hit rate._
 | mtplx-qwen38-27b-optimized-quality | 1 | 0 | 0 | 0 | 0.0% | 1 | 0.0h |
 | nemotron-3.5-lightning-30b-a3b | 1 | 49K | 107 | 0 | 0.0% | 1 | 0.0h |
 | qwen/qwen3.8-flash | 1 | 0 | 0 | 0 | 0.0% | 1 | 0.0h |
-| **Total** | **75,246** | **607.4M** | **17.4M** | **9,144.8M** | **93.8%** | **2,646** | **565.1h** |
+| **Total** | **75,257** | **607.6M** | **17.4M** | **9,145.4M** | **93.8%** | **2,648** | **565.1h** |
 
-_9,769.8M total tokens processed. 93.8% cache hit rate._
+_9,770.4M total tokens processed. 93.8% cache hit rate._
 <!-- STATS-END -->
 
 <!-- CONTRIBUTIONS-START -->
@@ -89,7 +89,7 @@ _9,769.8M total tokens processed. 93.8% cache hit rate._
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-09-23 21:30 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-09-23 22:28 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
 
 <!-- TOTAL-CONTRIBUTIONS-START -->
