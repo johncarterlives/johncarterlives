@@ -18,8 +18,8 @@
 | Worker-classified human attention | 0.0h | 36.2h | 106.9h | 108.5h |
 | Worker/headless AI generation | 1.1h | 16.6h | 122.6h | 139.2h |
 | Additive observed work | 7.6h | 132.5h | 653.2h | 860.7h |
-| Interactive sessions | 8 | 55 | 262 | 424 |
-| Worker sessions | 88 | 681 | 2,162 | 2,285 |
+| Interactive sessions | 9 | 56 | 263 | 425 |
+| Worker sessions | 90 | 683 | 2,164 | 2,287 |
 
 _Screen time from screen-time-history:daily-observations; collection status: ok. *365-day estimate uses observed calendar coverage._
 
@@ -34,10 +34,10 @@ _AI session 365-day totals cover 169 days of local assistant session history (no
 | Model | Requests | Input | Output | Cache read | Cache Hit-Rate % | Session Count | Session Hours |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
 | gpt-5.6-sol | 35,107 | 153.3M | 8.0M | 4,763.8M | 96.9% | 379 | 303.9h |
-| gpt-5.6-terra | 15,809 | 269.6M | 2.7M | 1,189.0M | 81.5% | 1,518 | 53.1h |
+| gpt-5.6-terra | 15,814 | 269.7M | 2.7M | 1,189.2M | 81.5% | 1,519 | 53.1h |
 | gpt-6-astra | 5,612 | 29.3M | 1.7M | 1,104.0M | 97.4% | 58 | 67.5h |
 | gpt-5.6-luna | 1,432 | 35.3M | 257K | 108.5M | 75.4% | 439 | 25.6h |
-| gpt-6-sol | 299 | 2.2M | 31K | 20.5M | 90.3% | 36 | 1.3h |
+| gpt-6-sol | 308 | 2.3M | 32K | 21.0M | 90.0% | 38 | 1.4h |
 | muse-spark-1.3-contributor-free | 63 | 906K | 23K | 7.6M | 89.4% | 3 | 0.2h |
 | gpt-6-luna | 56 | 3.7M | 1K | 453K | 10.8% | 55 | 0.1h |
 | big-pickle | 42 | 193K | 15K | 3.0M | 94.1% | 1 | 0.1h |
@@ -46,20 +46,20 @@ _AI session 365-day totals cover 169 days of local assistant session history (no
 | mtplx-qwen38-27b-optimized-quality | 1 | 0 | 0 | 0 | 0.0% | 1 | 0.0h |
 | nemotron-3.5-lightning-30b-a3b | 1 | 49K | 107 | 0 | 0.0% | 1 | 0.0h |
 | qwen/qwen3.8-flash | 1 | 0 | 0 | 0 | 0.0% | 1 | 0.0h |
-| **Total** | **58,452** | **495.0M** | **12.8M** | **7,198.8M** | **93.6%** | **2,411** | **452.2h** |
+| **Total** | **58,466** | **495.1M** | **12.8M** | **7,199.4M** | **93.6%** | **2,414** | **452.3h** |
 
-_7,706.7M total tokens processed. 93.6% cache hit rate._
+_7,707.5M total tokens processed. 93.6% cache hit rate._
 
 ## AI Model Usage (all time)
 
 | Model | Requests | Input | Output | Cache read | Cache Hit-Rate % | Session Count | Session Hours |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
 | gpt-5.6-sol | 43,980 | 205.3M | 10.1M | 5,915.4M | 96.6% | 469 | 375.5h |
-| gpt-5.6-terra | 15,928 | 271.9M | 2.8M | 1,196.6M | 81.5% | 1,533 | 53.6h |
+| gpt-5.6-terra | 15,933 | 272.0M | 2.8M | 1,196.8M | 81.5% | 1,534 | 53.7h |
 | gpt-5.5 | 7,076 | 45.3M | 2.0M | 717.6M | 94.1% | 127 | 33.4h |
 | gpt-6-astra | 5,612 | 29.3M | 1.7M | 1,104.0M | 97.4% | 58 | 67.5h |
 | gpt-5.6-luna | 2,137 | 45.5M | 522K | 181.2M | 79.9% | 466 | 31.7h |
-| gpt-6-sol | 299 | 2.2M | 31K | 20.5M | 90.3% | 36 | 1.3h |
+| gpt-6-sol | 308 | 2.3M | 32K | 21.0M | 90.0% | 38 | 1.4h |
 | gemma4:26b-mlx | 82 | 4.1M | 26K | 0 | 0.0% | 5 | 1.1h |
 | muse-spark-1.3-contributor-free | 63 | 906K | 23K | 7.6M | 89.4% | 3 | 0.2h |
 | gpt-6-luna | 56 | 3.7M | 1K | 453K | 10.8% | 55 | 0.1h |
@@ -71,9 +71,9 @@ _7,706.7M total tokens processed. 93.6% cache hit rate._
 | mtplx-qwen38-27b-optimized-quality | 1 | 0 | 0 | 0 | 0.0% | 1 | 0.0h |
 | nemotron-3.5-lightning-30b-a3b | 1 | 49K | 107 | 0 | 0.0% | 1 | 0.0h |
 | qwen/qwen3.8-flash | 1 | 0 | 0 | 0 | 0.0% | 1 | 0.0h |
-| **Total** | **75,332** | **609.4M** | **17.4M** | **9,148.3M** | **93.8%** | **2,678** | **565.4h** |
+| **Total** | **75,346** | **609.6M** | **17.4M** | **9,149.0M** | **93.8%** | **2,681** | **565.4h** |
 
-_9,775.3M total tokens processed. 93.8% cache hit rate._
+_9,776.1M total tokens processed. 93.8% cache hit rate._
 <!-- STATS-END -->
 
 <!-- CONTRIBUTIONS-START -->
@@ -89,7 +89,7 @@ _9,775.3M total tokens processed. 93.8% cache hit rate._
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-09-24 08:29 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-09-24 09:08 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
 
 <!-- TOTAL-CONTRIBUTIONS-START -->
