@@ -33,8 +33,8 @@ _AI session 365-day totals cover 172 days of local assistant session history (no
 
 | Model | Requests | Input | Output | Cache read | Cache Hit-Rate % | Session Count | Session Hours |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| gpt-5.6-sol | 36,147 | 160.0M | 8.2M | 4,980.6M | 96.9% | 389 | 310.5h |
-| gpt-5.6-terra | 15,464 | 272.1M | 2.8M | 1,170.0M | 81.1% | 1,495 | 53.0h |
+| gpt-5.6-sol | 36,044 | 159.3M | 8.1M | 4,967.5M | 96.9% | 389 | 310.2h |
+| gpt-5.6-terra | 15,448 | 272.0M | 2.8M | 1,169.4M | 81.1% | 1,493 | 53.0h |
 | gpt-6-astra | 5,961 | 33.0M | 1.9M | 1,159.1M | 97.2% | 62 | 70.3h |
 | gpt-5.6-luna | 1,310 | 33.8M | 216K | 95.7M | 73.9% | 427 | 24.2h |
 | gpt-6-sol | 988 | 8.3M | 138K | 87.2M | 91.3% | 115 | 5.0h |
@@ -46,9 +46,9 @@ _AI session 365-day totals cover 172 days of local assistant session history (no
 | mtplx-qwen38-27b-optimized-quality | 1 | 0 | 0 | 0 | 0.0% | 1 | 0.0h |
 | nemotron-3.5-lightning-30b-a3b | 1 | 49K | 107 | 0 | 0.0% | 1 | 0.0h |
 | qwen/qwen3.8-flash | 1 | 0 | 0 | 0 | 0.0% | 1 | 0.0h |
-| **Total** | **60,718** | **526.7M** | **13.4M** | **7,560.6M** | **93.5%** | **2,614** | **466.0h** |
+| **Total** | **60,599** | **525.9M** | **13.4M** | **7,546.9M** | **93.5%** | **2,612** | **465.6h** |
 
-_8,100.7M total tokens processed. 93.5% cache hit rate._
+_8,086.2M total tokens processed. 93.5% cache hit rate._
 
 ## AI Model Usage (all time)
 
@@ -89,7 +89,7 @@ _10,613.9M total tokens processed. 93.8% cache hit rate._
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-09-27 14:37 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-09-27 15:02 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
 
 <!-- TOTAL-CONTRIBUTIONS-START -->
