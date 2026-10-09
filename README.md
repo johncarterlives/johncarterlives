@@ -19,7 +19,7 @@
 | Worker/headless AI generation | 13.9h | 33.4h | 98.4h | 200.0h |
 | Additive observed work | 74.8h | 189.3h | 660.2h | 1,192.0h |
 | Interactive sessions | 57 | 109 | 312 | 624 |
-| Worker sessions | 336 | 1,262 | 3,389 | 4,411 |
+| Worker sessions | 341 | 1,267 | 3,394 | 4,416 |
 
 _Screen time from screen-time-history:daily-observations; collection status: ok. *365-day estimate uses observed calendar coverage._
 
@@ -34,9 +34,9 @@ _AI session 365-day totals cover 184 days of local assistant session history (no
 | Model | Requests | Input | Output | Cache read | Cache write | Cache Hit-Rate % | Session Count | Session Hours |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
 | gpt-5.6-sol | 28,750 | 119.2M | 6.3M | 4,017.2M | 0 | 97.1% | 324 | 216.2h |
-| gpt-6.1-sol | 16,711 | 84.1M | 3.8M | 1,947.8M | 0 | 95.9% | 591 | 116.3h |
+| gpt-6.1-sol | 16,728 | 84.2M | 3.8M | 1,948.9M | 0 | 95.9% | 592 | 116.4h |
 | gpt-5.6-terra | 9,554 | 220.6M | 1.7M | 710.3M | 0 | 76.3% | 959 | 33.0h |
-| gpt-6-luna | 4,789 | 108.5M | 1.0M | 369.4M | 0 | 77.3% | 1,280 | 18.0h |
+| gpt-6-luna | 4,793 | 108.7M | 1.0M | 369.4M | 0 | 77.3% | 1,284 | 18.0h |
 | gpt-6-astra | 4,481 | 32.9M | 1.5M | 799.3M | 0 | 96.0% | 182 | 61.8h |
 | gpt-6-sol | 2,925 | 26.1M | 431K | 233.0M | 0 | 89.9% | 284 | 14.4h |
 | gpt-6.1-sol-fast | 1,787 | 6.7M | 518K | 287.0M | 0 | 97.7% | 9 | 13.2h |
@@ -44,9 +44,9 @@ _AI session 365-day totals cover 184 days of local assistant session history (no
 | qwen3.8-flash | 22 | 87K | 2K | 1.3M | 0 | 93.9% | 1 | 0.1h |
 | muse-spark-1.3-contributor-free | 19 | 583K | 13K | 2.3M | 0 | 79.9% | 1 | 0.1h |
 | qwen/qwen3.8-flash | 1 | 0 | 0 | 0 | 0 | 0.0% | 1 | 0.0h |
-| **Total** | **69,895** | **626.5M** | **15.7M** | **8,424.9M** | **0** | **93.1%** | **3,855** | **475.2h** |
+| **Total** | **69,916** | **626.8M** | **15.7M** | **8,426.0M** | **0** | **93.1%** | **3,860** | **475.3h** |
 
-_9,067.2M total tokens processed. 93.1% cache hit rate._
+_9,068.6M total tokens processed. 93.1% cache hit rate._
 
 ## AI Model Usage (all time)
 
@@ -54,10 +54,10 @@ _9,067.2M total tokens processed. 93.1% cache hit rate._
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
 | gpt-5.6-sol | 54,086 | 245.8M | 12.5M | 7,425.8M | 0 | 96.8% | 519 | 440.4h |
 | gpt-5.6-terra | 16,823 | 283.6M | 3.0M | 1,272.5M | 0 | 81.8% | 1,610 | 57.8h |
-| gpt-6.1-sol | 16,711 | 84.1M | 3.8M | 1,947.8M | 0 | 95.9% | 591 | 116.3h |
+| gpt-6.1-sol | 16,728 | 84.2M | 3.8M | 1,948.9M | 0 | 95.9% | 592 | 116.4h |
 | gpt-6-astra | 7,274 | 41.7M | 2.2M | 1,305.4M | 0 | 96.9% | 197 | 82.5h |
 | gpt-5.5 | 7,076 | 45.3M | 2.0M | 717.6M | 0 | 94.1% | 127 | 33.4h |
-| gpt-6-luna | 4,789 | 108.5M | 1.0M | 369.4M | 0 | 77.3% | 1,280 | 18.0h |
+| gpt-6-luna | 4,793 | 108.7M | 1.0M | 369.4M | 0 | 77.3% | 1,284 | 18.0h |
 | gpt-6-sol | 2,925 | 26.1M | 431K | 233.0M | 0 | 89.9% | 284 | 14.4h |
 | gpt-5.6-luna | 2,137 | 45.5M | 522K | 181.2M | 0 | 79.9% | 466 | 31.7h |
 | gpt-6.1-sol-fast | 1,787 | 6.7M | 518K | 287.0M | 0 | 97.7% | 9 | 13.2h |
@@ -71,9 +71,9 @@ _9,067.2M total tokens processed. 93.1% cache hit rate._
 | mtplx-qwen38-27b-optimized-quality | 1 | 0 | 0 | 0 | 0 | 0.0% | 1 | 0.0h |
 | nemotron-3.5-lightning-30b-a3b | 1 | 49K | 107 | 0 | 0 | 0.0% | 1 | 0.0h |
 | qwen/qwen3.8-flash | 1 | 0 | 0 | 0 | 0 | 0.0% | 1 | 0.0h |
-| **Total** | **113,852** | **893.7M** | **26.3M** | **13,752.6M** | **0** | **93.9%** | **4,941** | **810.0h** |
+| **Total** | **113,873** | **894.0M** | **26.3M** | **13,753.6M** | **0** | **93.9%** | **4,946** | **810.1h** |
 
-_14,672.7M total tokens processed. 93.9% cache hit rate._
+_14,674.0M total tokens processed. 93.9% cache hit rate._
 <!-- STATS-END -->
 
 <!-- CONTRIBUTIONS-START -->
@@ -89,7 +89,7 @@ _14,672.7M total tokens processed. 93.9% cache hit rate._
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-10-09 10:13 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-10-09 11:24 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
 
 <!-- TOTAL-CONTRIBUTIONS-START -->
