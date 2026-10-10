@@ -19,7 +19,7 @@
 | Worker/headless AI generation | 3.9h | 31.7h | 98.1h | 204.0h |
 | Additive observed work | 31.5h | 200.2h | 678.9h | 1,228.3h |
 | Interactive sessions | 14 | 106 | 309 | 633 |
-| Worker sessions | 217 | 1,323 | 3,480 | 4,607 |
+| Worker sessions | 223 | 1,329 | 3,486 | 4,613 |
 
 _Screen time from screen-time-history:daily-observations; collection status: ok. *365-day estimate uses observed calendar coverage._
 
@@ -33,31 +33,31 @@ _AI session 365-day totals cover 185 days of local assistant session history (no
 
 | Model | Requests | Input | Output | Cache read | Cache write | Cache Hit-Rate % | Session Count | Session Hours |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| gpt-5.6-sol | 26,168 | 108.2M | 5.9M | 3,692.2M | 0 | 97.2% | 278 | 201.9h |
-| gpt-6.1-sol | 18,081 | 92.0M | 4.1M | 2,099.7M | 0 | 95.8% | 661 | 123.9h |
+| gpt-5.6-sol | 26,145 | 108.2M | 5.8M | 3,690.6M | 0 | 97.2% | 277 | 201.8h |
+| gpt-6.1-sol | 18,109 | 92.1M | 4.1M | 2,101.5M | 0 | 95.8% | 663 | 124.0h |
 | gpt-5.6-terra | 8,322 | 211.5M | 1.5M | 612.4M | 0 | 74.3% | 905 | 28.6h |
-| gpt-6-luna | 5,191 | 115.6M | 1.1M | 408.6M | 0 | 77.9% | 1,387 | 19.0h |
+| gpt-6-luna | 5,195 | 115.8M | 1.1M | 408.6M | 0 | 77.9% | 1,391 | 19.0h |
 | gpt-6-astra | 3,871 | 31.8M | 1.4M | 665.8M | 0 | 95.4% | 199 | 59.4h |
 | gpt-6.1-sol-fast | 2,977 | 11.2M | 917K | 471.5M | 0 | 97.7% | 15 | 32.5h |
 | gpt-6-sol | 2,929 | 26.1M | 431K | 233.1M | 0 | 89.9% | 286 | 14.5h |
-| gpt-5.6-luna | 802 | 25.8M | 91K | 54.8M | 0 | 68.0% | 324 | 2.0h |
+| gpt-5.6-luna | 800 | 25.7M | 91K | 54.8M | 0 | 68.1% | 322 | 2.0h |
 | qwen3.8-flash | 22 | 87K | 2K | 1.3M | 0 | 93.9% | 1 | 0.1h |
 | muse-spark-1.3-contributor-free | 19 | 583K | 13K | 2.3M | 0 | 79.9% | 1 | 0.1h |
 | qwen/qwen3.8-flash | 1 | 0 | 0 | 0 | 0 | 0.0% | 1 | 0.0h |
-| **Total** | **68,383** | **623.1M** | **15.6M** | **8,242.1M** | **0** | **93%** | **3,924** | **481.9h** |
+| **Total** | **68,390** | **623.3M** | **15.6M** | **8,242.4M** | **0** | **93%** | **3,927** | **481.9h** |
 
-_8,880.9M total tokens processed. 93% cache hit rate._
+_8,881.4M total tokens processed. 93% cache hit rate._
 
 ## AI Model Usage (all time)
 
 | Model | Requests | Input | Output | Cache read | Cache write | Cache Hit-Rate % | Session Count | Session Hours |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
 | gpt-5.6-sol | 54,086 | 245.8M | 12.5M | 7,425.8M | 0 | 96.8% | 519 | 440.4h |
-| gpt-6.1-sol | 18,081 | 92.0M | 4.1M | 2,099.7M | 0 | 95.8% | 661 | 123.9h |
+| gpt-6.1-sol | 18,109 | 92.1M | 4.1M | 2,101.5M | 0 | 95.8% | 663 | 124.0h |
 | gpt-5.6-terra | 16,870 | 284.5M | 3.0M | 1,280.5M | 0 | 81.8% | 1,614 | 58.0h |
 | gpt-6-astra | 7,382 | 42.5M | 2.3M | 1,319.2M | 0 | 96.9% | 221 | 83.3h |
 | gpt-5.5 | 7,076 | 45.3M | 2.0M | 717.6M | 0 | 94.1% | 127 | 33.4h |
-| gpt-6-luna | 5,191 | 115.6M | 1.1M | 408.6M | 0 | 77.9% | 1,387 | 19.0h |
+| gpt-6-luna | 5,195 | 115.8M | 1.1M | 408.6M | 0 | 77.9% | 1,391 | 19.0h |
 | gpt-6.1-sol-fast | 2,977 | 11.2M | 917K | 471.5M | 0 | 97.7% | 15 | 32.5h |
 | gpt-6-sol | 2,929 | 26.1M | 431K | 233.1M | 0 | 89.9% | 286 | 14.5h |
 | gpt-5.6-luna | 2,137 | 45.5M | 522K | 181.2M | 0 | 79.9% | 466 | 31.7h |
@@ -71,9 +71,9 @@ _8,880.9M total tokens processed. 93% cache hit rate._
 | mtplx-qwen38-27b-optimized-quality | 1 | 0 | 0 | 0 | 0 | 0.0% | 1 | 0.0h |
 | nemotron-3.5-lightning-30b-a3b | 1 | 49K | 107 | 0 | 0 | 0.0% | 1 | 0.0h |
 | qwen/qwen3.8-flash | 1 | 0 | 0 | 0 | 0 | 0.0% | 1 | 0.0h |
-| **Total** | **116,973** | **914.8M** | **27.1M** | **14,150.0M** | **0** | **93.9%** | **5,140** | **838.7h** |
+| **Total** | **117,005** | **915.1M** | **27.1M** | **14,151.9M** | **0** | **93.9%** | **5,146** | **838.8h** |
 
-_15,092.0M total tokens processed. 93.9% cache hit rate._
+_15,094.2M total tokens processed. 93.9% cache hit rate._
 <!-- STATS-END -->
 
 <!-- CONTRIBUTIONS-START -->
@@ -89,7 +89,7 @@ _15,092.0M total tokens processed. 93.9% cache hit rate._
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-10-10 09:10 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-10-10 10:01 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
 
 <!-- TOTAL-CONTRIBUTIONS-START -->
