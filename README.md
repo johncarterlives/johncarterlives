@@ -19,7 +19,7 @@
 | Worker/headless AI generation | 8.0h | 30.4h | 104.3h | 236.5h |
 | Additive observed work | 23.2h | 194.6h | 621.8h | 1,427.0h |
 | Interactive sessions | 7 | 95 | 330 | 730 |
-| Worker sessions | 180 | 1,074 | 3,849 | 5,823 |
+| Worker sessions | 186 | 1,080 | 3,855 | 5,829 |
 
 _Screen time from screen-time-history:daily-observations; collection status: ok. *365-day estimate uses observed calendar coverage._
 
@@ -33,28 +33,28 @@ _AI session 365-day totals cover 194 days of local assistant session history (no
 
 | Model | Requests | Input | Output | Cache read | Cache write | Cache Hit-Rate % | Session Count | Session Hours |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| gpt-6.1-sol | 25,348 | 137.2M | 5.6M | 2,792.4M | 0 | 95.3% | 1,106 | 161.7h |
+| gpt-6.1-sol | 25,363 | 137.3M | 5.6M | 2,793.2M | 0 | 95.3% | 1,108 | 161.8h |
 | gpt-5.6-sol | 15,884 | 66.4M | 3.6M | 2,353.4M | 0 | 97.3% | 103 | 106.0h |
 | gpt-6.1-sol-fast | 13,775 | 47.8M | 3.8M | 2,065.2M | 0 | 97.7% | 49 | 130.1h |
-| gpt-6-luna | 7,898 | 170.3M | 1.8M | 652.1M | 0 | 79.3% | 2,058 | 29.8h |
+| gpt-6-luna | 7,901 | 170.4M | 1.8M | 652.1M | 0 | 79.3% | 2,061 | 29.9h |
 | gpt-6-astra | 4,465 | 27.3M | 1.4M | 658.6M | 0 | 96.0% | 268 | 37.4h |
 | gpt-6-sol | 2,958 | 26.6M | 436K | 233.2M | 0 | 89.7% | 308 | 14.6h |
-| gpt-5.6-terra | 2,857 | 47.2M | 616K | 238.8M | 0 | 83.5% | 331 | 11.0h |
-| gpt-5.6-luna | 353 | 12.5M | 35K | 25.1M | 0 | 66.7% | 146 | 0.8h |
-| **Total** | **73,538** | **535.7M** | **17.5M** | **9,019.2M** | **0** | **94.4%** | **4,225** | **491.4h** |
+| gpt-5.6-terra | 2,855 | 47.1M | 616K | 238.8M | 0 | 83.5% | 329 | 11.0h |
+| gpt-5.6-luna | 351 | 12.4M | 35K | 25.1M | 0 | 67.0% | 144 | 0.8h |
+| **Total** | **73,552** | **535.7M** | **17.5M** | **9,019.9M** | **0** | **94.4%** | **4,226** | **491.5h** |
 
-_9,572.4M total tokens processed. 94.4% cache hit rate._
+_9,573.2M total tokens processed. 94.4% cache hit rate._
 
 ## AI Model Usage (all time)
 
 | Model | Requests | Input | Output | Cache read | Cache write | Cache Hit-Rate % | Session Count | Session Hours |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
 | gpt-5.6-sol | 54,086 | 245.8M | 12.5M | 7,425.8M | 0 | 96.8% | 519 | 440.4h |
-| gpt-6.1-sol | 25,348 | 137.2M | 5.6M | 2,792.4M | 0 | 95.3% | 1,106 | 161.7h |
+| gpt-6.1-sol | 25,363 | 137.3M | 5.6M | 2,793.2M | 0 | 95.3% | 1,108 | 161.8h |
 | gpt-5.6-terra | 16,886 | 284.7M | 3.0M | 1,283.6M | 0 | 81.8% | 1,615 | 58.0h |
 | gpt-6.1-sol-fast | 13,775 | 47.8M | 3.8M | 2,065.2M | 0 | 97.7% | 49 | 130.1h |
 | gpt-6-astra | 9,339 | 50.0M | 2.8M | 1,605.3M | 0 | 97.0% | 316 | 96.7h |
-| gpt-6-luna | 7,898 | 170.3M | 1.8M | 652.1M | 0 | 79.3% | 2,058 | 29.8h |
+| gpt-6-luna | 7,901 | 170.4M | 1.8M | 652.1M | 0 | 79.3% | 2,061 | 29.9h |
 | gpt-5.5 | 7,076 | 45.3M | 2.0M | 717.6M | 0 | 94.1% | 127 | 33.4h |
 | gpt-6-sol | 2,958 | 26.6M | 436K | 233.2M | 0 | 89.7% | 308 | 14.6h |
 | gpt-5.6-luna | 2,144 | 45.7M | 524K | 182.4M | 0 | 80.0% | 467 | 31.7h |
@@ -68,9 +68,9 @@ _9,572.4M total tokens processed. 94.4% cache hit rate._
 | mtplx-qwen38-27b-optimized-quality | 1 | 0 | 0 | 0 | 0 | 0.0% | 1 | 0.0h |
 | nemotron-3.5-lightning-30b-a3b | 1 | 49K | 107 | 0 | 0 | 0.0% | 1 | 0.0h |
 | qwen/qwen3.8-flash | 1 | 0 | 0 | 0 | 0 | 0.0% | 1 | 0.0h |
-| **Total** | **139,754** | **1,059.8M** | **32.8M** | **16,970.4M** | **0** | **94.1%** | **6,366** | **998.6h** |
+| **Total** | **139,772** | **1,060.0M** | **32.8M** | **16,971.2M** | **0** | **94.1%** | **6,371** | **998.8h** |
 
-_18,063.1M total tokens processed. 94.1% cache hit rate._
+_18,064.1M total tokens processed. 94.1% cache hit rate._
 <!-- STATS-END -->
 
 <!-- CONTRIBUTIONS-START -->
@@ -86,7 +86,7 @@ _18,063.1M total tokens processed. 94.1% cache hit rate._
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-10-19 08:19 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-10-19 09:23 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
 
 <!-- TOTAL-CONTRIBUTIONS-START -->
