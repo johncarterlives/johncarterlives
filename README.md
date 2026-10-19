@@ -19,7 +19,7 @@
 | Worker/headless AI generation | 3.1h | 22.5h | 96.9h | 228.5h |
 | Additive observed work | 24.1h | 171.4h | 599.5h | 1,403.7h |
 | Interactive sessions | 7 | 95 | 330 | 730 |
-| Worker sessions | 282 | 1,056 | 3,908 | 5,792 |
+| Worker sessions | 288 | 1,062 | 3,914 | 5,798 |
 
 _Screen time from screen-time-history:daily-observations; collection status: ok. *365-day estimate uses observed calendar coverage._
 
@@ -33,28 +33,28 @@ _AI session 365-day totals cover 193 days of local assistant session history (no
 
 | Model | Requests | Input | Output | Cache read | Cache write | Cache Hit-Rate % | Session Count | Session Hours |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| gpt-6.1-sol | 25,227 | 136.6M | 5.6M | 2,784.5M | 0 | 95.3% | 1,096 | 161.2h |
+| gpt-6.1-sol | 25,253 | 136.7M | 5.6M | 2,786.1M | 0 | 95.3% | 1,098 | 161.4h |
 | gpt-5.6-sol | 15,962 | 66.6M | 3.6M | 2,359.1M | 0 | 97.3% | 105 | 106.4h |
 | gpt-6.1-sol-fast | 13,775 | 47.8M | 3.8M | 2,065.2M | 0 | 97.7% | 49 | 130.1h |
-| gpt-6-luna | 7,880 | 169.4M | 1.8M | 652.0M | 0 | 79.4% | 2,040 | 29.8h |
+| gpt-6-luna | 7,884 | 169.6M | 1.8M | 652.0M | 0 | 79.4% | 2,044 | 29.8h |
 | gpt-6-astra | 4,465 | 27.3M | 1.4M | 658.6M | 0 | 96.0% | 268 | 37.4h |
 | gpt-6-sol | 2,958 | 26.6M | 436K | 233.2M | 0 | 89.7% | 308 | 14.6h |
-| gpt-5.6-terra | 2,885 | 48.1M | 619K | 239.7M | 0 | 83.3% | 341 | 11.0h |
-| gpt-5.6-luna | 359 | 12.9M | 35K | 25.2M | 0 | 66.0% | 152 | 0.8h |
-| **Total** | **73,511** | **535.7M** | **17.5M** | **9,017.9M** | **0** | **94.4%** | **4,215** | **491.3h** |
+| gpt-5.6-terra | 2,884 | 48.1M | 619K | 239.7M | 0 | 83.3% | 340 | 11.0h |
+| gpt-5.6-luna | 357 | 12.8M | 35K | 25.1M | 0 | 66.2% | 150 | 0.8h |
+| **Total** | **73,538** | **535.9M** | **17.5M** | **9,019.5M** | **0** | **94.4%** | **4,218** | **491.5h** |
 
-_9,571.2M total tokens processed. 94.4% cache hit rate._
+_9,572.9M total tokens processed. 94.4% cache hit rate._
 
 ## AI Model Usage (all time)
 
 | Model | Requests | Input | Output | Cache read | Cache write | Cache Hit-Rate % | Session Count | Session Hours |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
 | gpt-5.6-sol | 54,086 | 245.8M | 12.5M | 7,425.8M | 0 | 96.8% | 519 | 440.4h |
-| gpt-6.1-sol | 25,227 | 136.6M | 5.6M | 2,784.5M | 0 | 95.3% | 1,096 | 161.2h |
+| gpt-6.1-sol | 25,253 | 136.7M | 5.6M | 2,786.1M | 0 | 95.3% | 1,098 | 161.4h |
 | gpt-5.6-terra | 16,886 | 284.7M | 3.0M | 1,283.6M | 0 | 81.8% | 1,615 | 58.0h |
 | gpt-6.1-sol-fast | 13,775 | 47.8M | 3.8M | 2,065.2M | 0 | 97.7% | 49 | 130.1h |
 | gpt-6-astra | 9,339 | 50.0M | 2.8M | 1,605.3M | 0 | 97.0% | 316 | 96.7h |
-| gpt-6-luna | 7,880 | 169.4M | 1.8M | 652.0M | 0 | 79.4% | 2,040 | 29.8h |
+| gpt-6-luna | 7,884 | 169.6M | 1.8M | 652.0M | 0 | 79.4% | 2,044 | 29.8h |
 | gpt-5.5 | 7,076 | 45.3M | 2.0M | 717.6M | 0 | 94.1% | 127 | 33.4h |
 | gpt-6-sol | 2,958 | 26.6M | 436K | 233.2M | 0 | 89.7% | 308 | 14.6h |
 | gpt-5.6-luna | 2,144 | 45.7M | 524K | 182.4M | 0 | 80.0% | 467 | 31.7h |
@@ -68,9 +68,9 @@ _9,571.2M total tokens processed. 94.4% cache hit rate._
 | mtplx-qwen38-27b-optimized-quality | 1 | 0 | 0 | 0 | 0 | 0.0% | 1 | 0.0h |
 | nemotron-3.5-lightning-30b-a3b | 1 | 49K | 107 | 0 | 0 | 0.0% | 1 | 0.0h |
 | qwen/qwen3.8-flash | 1 | 0 | 0 | 0 | 0 | 0.0% | 1 | 0.0h |
-| **Total** | **139,615** | **1,058.2M** | **32.8M** | **16,962.4M** | **0** | **94.1%** | **6,338** | **998.1h** |
+| **Total** | **139,645** | **1,058.6M** | **32.8M** | **16,964.1M** | **0** | **94.1%** | **6,344** | **998.3h** |
 
-_18,053.6M total tokens processed. 94.1% cache hit rate._
+_18,055.5M total tokens processed. 94.1% cache hit rate._
 <!-- STATS-END -->
 
 <!-- CONTRIBUTIONS-START -->
@@ -86,7 +86,7 @@ _18,053.6M total tokens processed. 94.1% cache hit rate._
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-10-19 02:10 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-10-19 03:19 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
 
 <!-- TOTAL-CONTRIBUTIONS-START -->
