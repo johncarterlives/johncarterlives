@@ -19,7 +19,7 @@
 | Worker/headless AI generation | 2.0h | 13.8h | 114.2h | 286.4h |
 | Additive observed work | 21.6h | 132.6h | 696.9h | 1,724.9h |
 | Interactive sessions | 14 | 70 | 321 | 847 |
-| Worker sessions | 237 | 1,158 | 4,515 | 7,799 |
+| Worker sessions | 239 | 1,160 | 4,517 | 7,801 |
 
 _Screen time from screen-time-history:daily-observations; collection status: ok. *365-day estimate uses observed calendar coverage._
 
@@ -33,28 +33,28 @@ _AI session 365-day totals cover 206 days of local assistant session history (no
 
 | Model | Requests | Input | Output | Cache read | Cache write | Cache Hit-Rate % | Session Count | Session Hours |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| gpt-6.1-sol | 35,038 | 194.1M | 7.4M | 3,766.2M | 0 | 95.1% | 1,691 | 198.9h |
+| gpt-6.1-sol | 34,898 | 193.6M | 7.4M | 3,756.4M | 0 | 95.1% | 1,688 | 198.4h |
 | gpt-6.1-sol-fast | 23,492 | 80.5M | 6.7M | 3,492.4M | 0 | 97.7% | 82 | 191.6h |
 | claude-opus-5-5 | 13,400 | 28K | 5.6M | 2,260.4M | 105.0M | 95.6% | 31 | 69.2h |
-| gpt-6-luna | 9,609 | 217.9M | 2.9M | 769.6M | 0 | 77.9% | 2,748 | 33.3h |
-| gpt-6-astra | 5,942 | 24.7M | 1.7M | 858.2M | 0 | 97.2% | 293 | 52.5h |
-| gpt-5.6-sol | 2,086 | 5.7M | 463K | 319.3M | 0 | 98.2% | 11 | 11.8h |
+| gpt-6-luna | 9,539 | 216.9M | 2.9M | 766.9M | 0 | 77.9% | 2,741 | 33.1h |
+| gpt-6-astra | 5,939 | 24.7M | 1.7M | 858.2M | 0 | 97.2% | 290 | 52.5h |
+| gpt-5.6-sol | 1,809 | 5.0M | 390K | 281.1M | 0 | 98.2% | 11 | 10.4h |
 | studio-glm-5.3-flash | 490 | 1.9M | 105K | 34.2M | 0 | 94.5% | 17 | 1.0h |
-| gpt-6-sol | 329 | 1.9M | 36K | 11.4M | 0 | 85.5% | 72 | 1.0h |
+| gpt-6-sol | 324 | 1.7M | 35K | 11.1M | 0 | 86.3% | 70 | 1.0h |
 | gpt-5.6-terra | 123 | 1.8M | 17K | 17.6M | 0 | 90.3% | 10 | 0.6h |
 | claude-sonnet-5-5 | 59 | 136 | 15K | 5.8M | 1.3M | 81.1% | 5 | 0.2h |
 | gpt-5.6-luna | 43 | 947K | 7K | 5.6M | 0 | 85.6% | 5 | 0.1h |
 | gpt-6-sol-fast | 9 | 206K | 4K | 1.6M | 0 | 88.8% | 1 | 0.0h |
-| **Total** | **90,620** | **530.1M** | **25.1M** | **11,542.8M** | **106.3M** | **94.8%** | **4,785** | **560.0h** |
+| **Total** | **90,125** | **527.7M** | **25.0M** | **11,492.0M** | **106.3M** | **94.8%** | **4,770** | **557.9h** |
 
-_12,204.5M total tokens processed. 94.8% cache hit rate._
+_12,151.2M total tokens processed. 94.8% cache hit rate._
 
 ## AI Model Usage (all time)
 
 | Model | Requests | Input | Output | Cache read | Cache write | Cache Hit-Rate % | Session Count | Session Hours |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
 | gpt-5.6-sol | 54,086 | 245.8M | 12.5M | 7,425.8M | 0 | 96.8% | 519 | 440.4h |
-| gpt-6.1-sol | 35,835 | 199.6M | 7.6M | 3,822.6M | 0 | 95.0% | 1,769 | 203.0h |
+| gpt-6.1-sol | 35,841 | 199.7M | 7.6M | 3,822.8M | 0 | 95.0% | 1,771 | 203.1h |
 | gpt-6.1-sol-fast | 23,492 | 80.5M | 6.7M | 3,492.4M | 0 | 97.7% | 82 | 191.6h |
 | gpt-5.6-terra | 16,886 | 284.7M | 3.0M | 1,283.6M | 0 | 81.8% | 1,615 | 58.0h |
 | claude-opus-5-5 | 13,400 | 28K | 5.6M | 2,260.4M | 105.0M | 95.6% | 31 | 69.2h |
@@ -76,9 +76,9 @@ _12,204.5M total tokens processed. 94.8% cache hit rate._
 | mtplx-qwen38-27b-optimized-quality | 1 | 0 | 0 | 0 | 0 | 0.0% | 1 | 0.0h |
 | nemotron-3.5-lightning-30b-a3b | 1 | 49K | 107 | 0 | 0 | 0.0% | 1 | 0.0h |
 | qwen/qwen3.8-flash | 1 | 0 | 0 | 0 | 0 | 0.0% | 1 | 0.0h |
-| **Total** | **181,233** | **1,260.9M** | **45.9M** | **22,517.5M** | **106.3M** | **94.3%** | **8,310** | **1,216.2h** |
+| **Total** | **181,239** | **1,261.0M** | **45.9M** | **22,517.7M** | **106.3M** | **94.3%** | **8,312** | **1,216.2h** |
 
-_23,930.8M total tokens processed. 94.3% cache hit rate._
+_23,931.1M total tokens processed. 94.3% cache hit rate._
 <!-- STATS-END -->
 
 <!-- CONTRIBUTIONS-START -->
@@ -94,7 +94,7 @@ _23,930.8M total tokens processed. 94.3% cache hit rate._
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-10-31 19:11 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-10-31 20:09 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
 
 <!-- TOTAL-CONTRIBUTIONS-START -->
