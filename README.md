@@ -15,12 +15,12 @@
 | Screen time (Mac) | 24h | 58.7h | 331.4h | ~3285h* |
 | Input activity (Mac) | unavailable | unavailable | unavailable | unavailable |
 | Interactive human attention | 11.4h | 26.9h | 144.0h | 464.2h |
-| Interactive AI generation | 21.6h | 83.5h | 339.0h | 1043.0h |
+| Interactive AI generation | 21.9h | 83.8h | 339.3h | 1043.3h |
 | Worker-classified human attention | 0.1h | 0.1h | 7.1h | 128.8h |
 | Worker/headless AI generation | 1.5h | 19.0h | 95.2h | 315.0h |
-| Additive observed work | 34.5h | 129.3h | 581.9h | 1,908.1h |
+| Additive observed work | 34.8h | 129.6h | 582.2h | 1,908.4h |
 | Interactive sessions | 604 | 1,108 | 1,277 | 1,981 |
-| Worker sessions | 127 | 979 | 4,144 | 9,345 |
+| Worker sessions | 128 | 980 | 4,145 | 9,346 |
 
 _Screen time from screen-time-history:daily-observations; collection status: ok. *365-day estimate uses observed calendar coverage._
 
@@ -36,10 +36,10 @@ _AI session 365-day totals cover 218 days of local assistant session history (no
 
 | Model | Requests | Input | Output | Cache read | Cache write | Cache Hit-Rate % | Session Count | Session Hours |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| claude-opus-5-5 | 29,700 | 63K | 12.5M | 4,740.8M | 231.0M | 95.4% | 392 | 165.0h |
+| claude-opus-5-5 | 29,726 | 63K | 12.5M | 4,742.8M | 231.6M | 95.3% | 393 | 166.1h |
 | gpt-6.1-sol-fast | 20,689 | 69.9M | 5.8M | 3,036.9M | 0 | 97.7% | 79 | 159.5h |
-| gpt-6.1-sol | 18,562 | 118.9M | 3.5M | 1,740.6M | 0 | 93.6% | 1,399 | 82.6h |
-| gpt-6-luna | 7,723 | 170.6M | 2.4M | 541.9M | 0 | 76.0% | 2,397 | 27.7h |
+| gpt-6.1-sol | 18,547 | 118.8M | 3.5M | 1,739.8M | 0 | 93.6% | 1,397 | 82.5h |
+| gpt-6-luna | 7,719 | 170.4M | 2.4M | 541.9M | 0 | 76.1% | 2,393 | 27.7h |
 | gpt-6-astra | 5,393 | 19.1M | 1.5M | 808.0M | 0 | 97.7% | 168 | 45.1h |
 | claude-sonnet-5-5 | 970 | 18K | 1.0M | 39.4M | 21.4M | 64.7% | 550 | 11.4h |
 | studio-glm-5.3-flash | 490 | 1.9M | 105K | 34.2M | 0 | 94.5% | 17 | 1.0h |
@@ -49,9 +49,9 @@ _AI session 365-day totals cover 218 days of local assistant session history (no
 | gpt-5.6-luna | 43 | 947K | 7K | 5.6M | 0 | 85.6% | 5 | 0.1h |
 | gpt-6-sol-fast | 9 | 206K | 4K | 1.6M | 0 | 88.8% | 1 | 0.0h |
 | claude-sonnet-4-6 | 6 | 18 | 9K | 29K | 66K | 30.9% | 6 | 0.1h |
-| **Total** | **83,982** | **382.3M** | **28.0M** | **10,964.8M** | **271.5M** | **94.4%** | **5,079** | **496.0h** |
+| **Total** | **83,989** | **382.0M** | **28.0M** | **10,966.0M** | **272.1M** | **94.4%** | **5,074** | **497.0h** |
 
-_11,646.8M total tokens processed. 94.4% cache hit rate._
+_11,648.1M total tokens processed. 94.4% cache hit rate._
 
 ## AI Model Usage (all time)
 
@@ -59,7 +59,7 @@ _11,646.8M total tokens processed. 94.4% cache hit rate._
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
 | gpt-5.6-sol | 54,086 | 245.8M | 12.5M | 7,425.8M | 0 | 96.8% | 519 | 440.4h |
 | gpt-6.1-sol | 38,224 | 219.5M | 8.0M | 4,018.5M | 0 | 94.8% | 2,136 | 215.8h |
-| claude-opus-5-5 | 29,700 | 63K | 12.5M | 4,740.8M | 231.0M | 95.4% | 392 | 165.0h |
+| claude-opus-5-5 | 29,726 | 63K | 12.5M | 4,742.8M | 231.6M | 95.3% | 393 | 166.1h |
 | gpt-6.1-sol-fast | 24,017 | 82.9M | 6.8M | 3,558.6M | 0 | 97.7% | 94 | 194.1h |
 | gpt-5.6-terra | 16,886 | 284.7M | 3.0M | 1,283.6M | 0 | 81.8% | 1,615 | 58.0h |
 | gpt-6-luna | 13,150 | 294.9M | 3.6M | 958.1M | 0 | 76.5% | 3,934 | 47.3h |
@@ -83,9 +83,9 @@ _11,646.8M total tokens processed. 94.4% cache hit rate._
 | mtplx-qwen38-27b-optimized-quality | 1 | 0 | 0 | 0 | 0 | 0.0% | 1 | 0.0h |
 | nemotron-3.5-lightning-30b-a3b | 1 | 49K | 107 | 0 | 0 | 0.0% | 1 | 0.0h |
 | qwen/qwen3.8-flash | 1 | 0 | 0 | 0 | 0 | 0.0% | 1 | 0.0h |
-| **Total** | **203,180** | **1,317.2M** | **55.6M** | **25,356.7M** | **271.5M** | **94.1%** | **10,452** | **1,347.3h** |
+| **Total** | **203,206** | **1,317.2M** | **55.7M** | **25,358.6M** | **272.1M** | **94.1%** | **10,453** | **1,348.4h** |
 
-_27,001.2M total tokens processed. 94.1% cache hit rate._
+_27,003.7M total tokens processed. 94.1% cache hit rate._
 <!-- STATS-END -->
 
 <!-- CONTRIBUTIONS-START -->
@@ -102,7 +102,7 @@ _27,001.2M total tokens processed. 94.1% cache hit rate._
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-11-12 07:28 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-11-12 08:17 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
 
 <!-- TOTAL-CONTRIBUTIONS-START -->
