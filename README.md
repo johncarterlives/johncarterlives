@@ -20,7 +20,7 @@
 | Worker/headless AI generation | 1.3h | 18.8h | 92.3h | 317.7h |
 | Additive observed work | 7.7h | 148.7h | 557.0h | 1,936.6h |
 | Interactive sessions | 5 | 1,113 | 1,276 | 1,991 |
-| Worker sessions | 137 | 975 | 4,088 | 9,596 |
+| Worker sessions | 139 | 977 | 4,090 | 9,598 |
 
 _Screen time from screen-time-history:daily-observations; collection status: ok. *365-day estimate uses observed calendar coverage._
 
@@ -36,9 +36,9 @@ _AI session 365-day totals cover 220 days of local assistant session history (no
 
 | Model | Requests | Input | Output | Cache read | Cache write | Cache Hit-Rate % | Session Count | Session Hours |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| claude-opus-5-5 | 32,391 | 68K | 13.6M | 5,122.8M | 254.7M | 95.3% | 471 | 184.2h |
-| gpt-6.1-sol | 15,394 | 100.8M | 2.9M | 1,428.4M | 0 | 93.4% | 1,224 | 64.8h |
-| gpt-6.1-sol-fast | 14,697 | 49.0M | 4.2M | 2,152.0M | 0 | 97.8% | 66 | 114.7h |
+| claude-opus-5-5 | 32,399 | 68K | 13.6M | 5,123.2M | 254.8M | 95.3% | 473 | 184.2h |
+| gpt-6.1-sol | 15,387 | 100.8M | 2.9M | 1,428.1M | 0 | 93.4% | 1,224 | 64.7h |
+| gpt-6.1-sol-fast | 14,679 | 48.8M | 4.2M | 2,148.9M | 0 | 97.8% | 66 | 114.6h |
 | gpt-6-luna | 7,151 | 159.0M | 2.3M | 490.7M | 0 | 75.5% | 2,351 | 26.1h |
 | gpt-6-astra | 5,282 | 18.1M | 1.5M | 805.7M | 0 | 97.8% | 121 | 43.9h |
 | claude-sonnet-5-5 | 1,020 | 18K | 1.0M | 42.8M | 21.9M | 66.1% | 556 | 11.5h |
@@ -49,9 +49,9 @@ _AI session 365-day totals cover 220 days of local assistant session history (no
 | gpt-6-sol | 32 | 222K | 2K | 51K | 0 | 18.8% | 24 | 0.1h |
 | gpt-6-sol-fast | 9 | 206K | 4K | 1.6M | 0 | 88.8% | 1 | 0.0h |
 | claude-sonnet-4-6 | 6 | 18 | 9K | 29K | 66K | 30.9% | 6 | 0.1h |
-| **Total** | **76,873** | **330.5M** | **26.7M** | **10,099.6M** | **296.1M** | **94.2%** | **4,885** | **449.9h** |
+| **Total** | **76,856** | **330.2M** | **26.7M** | **10,096.5M** | **296.2M** | **94.2%** | **4,887** | **449.8h** |
 
-_10,753.0M total tokens processed. 94.2% cache hit rate._
+_10,749.7M total tokens processed. 94.2% cache hit rate._
 
 ## AI Model Usage (all time)
 
@@ -59,7 +59,7 @@ _10,753.0M total tokens processed. 94.2% cache hit rate._
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
 | gpt-5.6-sol | 54,086 | 245.8M | 12.5M | 7,425.8M | 0 | 96.8% | 519 | 440.4h |
 | gpt-6.1-sol | 38,225 | 219.7M | 8.0M | 4,018.5M | 0 | 94.8% | 2,136 | 215.8h |
-| claude-opus-5-5 | 32,391 | 68K | 13.6M | 5,122.8M | 254.7M | 95.3% | 471 | 184.2h |
+| claude-opus-5-5 | 32,399 | 68K | 13.6M | 5,123.2M | 254.8M | 95.3% | 473 | 184.2h |
 | gpt-6.1-sol-fast | 24,102 | 83.1M | 6.9M | 3,567.3M | 0 | 97.7% | 96 | 194.5h |
 | gpt-5.6-terra | 16,886 | 284.7M | 3.0M | 1,283.6M | 0 | 81.8% | 1,615 | 58.0h |
 | gpt-6-luna | 13,308 | 300.1M | 3.7M | 958.3M | 0 | 76.2% | 4,084 | 47.9h |
@@ -83,9 +83,9 @@ _10,753.0M total tokens processed. 94.2% cache hit rate._
 | mtplx-qwen38-27b-optimized-quality | 1 | 0 | 0 | 0 | 0 | 0.0% | 1 | 0.0h |
 | nemotron-3.5-lightning-30b-a3b | 1 | 49K | 107 | 0 | 0 | 0.0% | 1 | 0.0h |
 | qwen/qwen3.8-flash | 1 | 0 | 0 | 0 | 0 | 0.0% | 1 | 0.0h |
-| **Total** | **206,172** | **1,322.8M** | **56.9M** | **25,750.9M** | **296.1M** | **94.1%** | **10,684** | **1,367.8h** |
+| **Total** | **206,180** | **1,322.8M** | **56.9M** | **25,751.2M** | **296.2M** | **94.1%** | **10,686** | **1,367.9h** |
 
-_27,426.8M total tokens processed. 94.1% cache hit rate._
+_27,427.3M total tokens processed. 94.1% cache hit rate._
 <!-- STATS-END -->
 
 <!-- CONTRIBUTIONS-START -->
@@ -102,7 +102,7 @@ _27,426.8M total tokens processed. 94.1% cache hit rate._
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-11-14 11:00 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-11-14 12:01 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
 
 <!-- TOTAL-CONTRIBUTIONS-START -->
