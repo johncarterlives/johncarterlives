@@ -20,7 +20,7 @@
 | Worker/headless AI generation | 1.2h | 18.6h | 90.4h | 318.9h |
 | Additive observed work | 5.8h | 150.4h | 538.6h | 1,942.4h |
 | Interactive sessions | 9 | 1,116 | 1,281 | 1,996 |
-| Worker sessions | 221 | 1,053 | 4,155 | 9,796 |
+| Worker sessions | 226 | 1,058 | 4,160 | 9,801 |
 
 _Screen time from screen-time-history:daily-observations; collection status: ok. *365-day estimate uses observed calendar coverage._
 
@@ -36,10 +36,10 @@ _AI session 365-day totals cover 221 days of local assistant session history (no
 
 | Model | Requests | Input | Output | Cache read | Cache write | Cache Hit-Rate % | Session Count | Session Hours |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| claude-opus-5-5 | 33,675 | 71K | 14.1M | 5,291.5M | 264.5M | 95.2% | 527 | 190.3h |
+| claude-opus-5-5 | 33,677 | 71K | 14.1M | 5,291.6M | 264.5M | 95.2% | 528 | 190.3h |
 | gpt-6.1-sol | 14,095 | 88.8M | 2.6M | 1,319.3M | 0 | 93.7% | 1,134 | 59.0h |
 | gpt-6.1-sol-fast | 11,521 | 39.1M | 3.3M | 1,676.4M | 0 | 97.7% | 56 | 100.4h |
-| gpt-6-luna | 6,806 | 151.0M | 2.1M | 451.2M | 0 | 74.9% | 2,333 | 25.3h |
+| gpt-6-luna | 6,805 | 150.9M | 2.1M | 451.1M | 0 | 74.9% | 2,332 | 25.3h |
 | gpt-6-astra | 4,303 | 14.7M | 1.2M | 651.9M | 0 | 97.8% | 99 | 37.2h |
 | claude-sonnet-5-5 | 1,020 | 18K | 1.0M | 42.8M | 21.9M | 66.1% | 556 | 11.5h |
 | studio-glm-5.3-flash | 490 | 1.9M | 105K | 34.2M | 0 | 94.5% | 17 | 1.0h |
@@ -49,7 +49,7 @@ _AI session 365-day totals cover 221 days of local assistant session history (no
 | gpt-6-sol | 28 | 191K | 2K | 45K | 0 | 19.1% | 21 | 0.1h |
 | gpt-6-sol-fast | 9 | 206K | 4K | 1.6M | 0 | 88.8% | 1 | 0.0h |
 | claude-sonnet-4-6 | 6 | 18 | 9K | 29K | 66K | 30.9% | 6 | 0.1h |
-| **Total** | **72,356** | **297.1M** | **25.7M** | **9,490.4M** | **306.1M** | **94%** | **4,806** | **428.6h** |
+| **Total** | **72,357** | **297.0M** | **25.7M** | **9,490.4M** | **306.1M** | **94%** | **4,806** | **428.6h** |
 
 _10,119.4M total tokens processed. 94% cache hit rate._
 
@@ -59,10 +59,10 @@ _10,119.4M total tokens processed. 94% cache hit rate._
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
 | gpt-5.6-sol | 54,086 | 245.8M | 12.5M | 7,425.8M | 0 | 96.8% | 519 | 440.4h |
 | gpt-6.1-sol | 38,225 | 219.7M | 8.0M | 4,018.5M | 0 | 94.8% | 2,136 | 215.8h |
-| claude-opus-5-5 | 33,675 | 71K | 14.1M | 5,291.5M | 264.5M | 95.2% | 527 | 190.3h |
+| claude-opus-5-5 | 33,677 | 71K | 14.1M | 5,291.6M | 264.5M | 95.2% | 528 | 190.3h |
 | gpt-6.1-sol-fast | 24,102 | 83.1M | 6.9M | 3,567.3M | 0 | 97.7% | 96 | 194.5h |
 | gpt-5.6-terra | 16,886 | 284.7M | 3.0M | 1,283.6M | 0 | 81.8% | 1,615 | 58.0h |
-| gpt-6-luna | 13,436 | 304.0M | 3.7M | 958.7M | 0 | 75.9% | 4,205 | 48.4h |
+| gpt-6-luna | 13,440 | 304.1M | 3.7M | 958.7M | 0 | 75.9% | 4,209 | 48.4h |
 | gpt-6-astra | 12,813 | 62.3M | 3.8M | 2,130.0M | 0 | 97.2% | 397 | 128.9h |
 | gpt-5.5 | 7,076 | 45.3M | 2.0M | 717.6M | 0 | 94.1% | 127 | 33.4h |
 | gpt-6-sol | 2,978 | 26.8M | 437K | 233.2M | 0 | 89.7% | 324 | 14.7h |
@@ -83,9 +83,9 @@ _10,119.4M total tokens processed. 94% cache hit rate._
 | mtplx-qwen38-27b-optimized-quality | 1 | 0 | 0 | 0 | 0 | 0.0% | 1 | 0.0h |
 | nemotron-3.5-lightning-30b-a3b | 1 | 49K | 107 | 0 | 0 | 0.0% | 1 | 0.0h |
 | qwen/qwen3.8-flash | 1 | 0 | 0 | 0 | 0 | 0.0% | 1 | 0.0h |
-| **Total** | **207,586** | **1,326.7M** | **57.5M** | **25,920.0M** | **306.1M** | **94.1%** | **10,859** | **1,374.6h** |
+| **Total** | **207,592** | **1,326.8M** | **57.5M** | **25,920.1M** | **306.1M** | **94.1%** | **10,864** | **1,374.6h** |
 
-_27,610.4M total tokens processed. 94.1% cache hit rate._
+_27,610.7M total tokens processed. 94.1% cache hit rate._
 <!-- STATS-END -->
 
 <!-- CONTRIBUTIONS-START -->
@@ -102,7 +102,7 @@ _27,610.4M total tokens processed. 94.1% cache hit rate._
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-11-16 04:02 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-11-16 05:05 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
 
 <!-- TOTAL-CONTRIBUTIONS-START -->
