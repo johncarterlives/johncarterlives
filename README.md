@@ -36,9 +36,9 @@ _AI session 365-day totals cover 229 days of local assistant session history (no
 
 | Model | Requests | Input | Output | Cache read | Cache write | Cache Hit-Rate % | Session Count | Session Hours |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| claude-opus-5-5 | 44,125 | 94K | 18.1M | 6,805.3M | 338.3M | 95.3% | 868 | 242.8h |
+| claude-opus-5-5 | 43,890 | 93K | 18.0M | 6,764.9M | 337.3M | 95.2% | 868 | 241.5h |
 | gpt-6.1-sol | 6,267 | 47.8M | 1.0M | 508.2M | 0 | 91.4% | 721 | 25.2h |
-| gpt-6-luna | 3,226 | 94.1M | 1.3M | 83.0M | 0 | 46.9% | 1,729 | 13.0h |
+| gpt-6-luna | 3,217 | 93.6M | 1.3M | 83.0M | 0 | 47.0% | 1,723 | 13.0h |
 | claude-sonnet-5-5 | 1,981 | 21K | 1.5M | 134.3M | 27.4M | 83.0% | 615 | 14.3h |
 | claude-fable-5-2 | 1,791 | 3K | 1.3M | 297.8M | 18.1M | 94.2% | 11 | 15.9h |
 | studio-glm-5.3-flash | 1,021 | 2.3M | 155K | 58.4M | 0 | 96.2% | 29 | 1.4h |
@@ -49,9 +49,9 @@ _AI session 365-day totals cover 229 days of local assistant session history (no
 | gpt-6-sol-fast | 9 | 206K | 4K | 1.6M | 0 | 88.8% | 1 | 0.0h |
 | claude-sonnet-4-6 | 6 | 18 | 9K | 29K | 66K | 30.9% | 6 | 0.1h |
 | gpt-6-sol | 6 | 45K | 124 | 0 | 0 | 0.0% | 6 | 0.0h |
-| **Total** | **59,567** | **149.4M** | **24.7M** | **7,997.3M** | **403.4M** | **93.5%** | **4,092** | **320.9h** |
+| **Total** | **59,323** | **149.0M** | **24.6M** | **7,956.9M** | **402.4M** | **93.5%** | **4,087** | **319.6h** |
 
-_8,575.1M total tokens processed. 93.5% cache hit rate._
+_8,533.1M total tokens processed. 93.5% cache hit rate._
 
 ## AI Model Usage (all time)
 
@@ -103,7 +103,7 @@ _30,010.7M total tokens processed. 94.1% cache hit rate._
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-11-23 19:04 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-11-23 20:00 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
 
 <!-- TOTAL-CONTRIBUTIONS-START -->
