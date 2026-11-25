@@ -1,10 +1,10 @@
 {
   "schema": "aidevops.total-contributions/v1",
   "user": "johncarterlives",
-  "updated": "2026-11-24",
-  "through": "2026-11-23",
+  "updated": "2026-11-25",
+  "through": "2026-11-24",
   "metric": "GitHub contributionCalendar.totalContributions",
-  "total": 1678,
+  "total": 1708,
   "months": [
     {
       "month": "2026-04",
@@ -43,8 +43,8 @@
     },
     {
       "month": "2026-11",
-      "total": 421,
-      "cumulative": 1678
+      "total": 451,
+      "cumulative": 1708
     }
   ]
 }
